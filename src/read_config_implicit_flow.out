@@ -1,0 +1,13 @@
+38504 38505 104 806c6e2020a:201b1b59 0x806C6E2: dehyphen (init.c:775) (result) leak: 13
+38824 38825 288 806be82020a:201b12fa 0x806BE82: command_by_name (init.c:358) (result) leak: 9
+44667 44668 16 806c7a5020a:806c6ec 0x806C7A5: parse_line (init.c:818) (result) leak: 2
+39524 39526 96 806e1a2020a:3cb359270 0x806E1A2: simple_atoi (init.c:1743) (result) leak: 3
+125809 125810 32 80709f6020a:0 0x80709F6: main (main.c:1437) (result) leak: 1
+46072 46073 16 806e140020a:3cb359270 0x806E140: simple_atoi (init.c:1728) (result) leak: 2
+46022 46023 64 806cf95020a:68584087 0x806CF95: cmd_number_inf (init.c:1068) (result) leak: 2
+5170 5171 872 806c762020a:806c6ec 0x806C762: parse_line (init.c:812) (result) leak: 109
+38830 38831 192 806be93020a:201b12fa 0x806BE93: command_by_name (init.c:360) (result) leak: 6
+44751 44752 16 806c7ea020a:806c6ec 0x806C7EA: parse_line (init.c:825) (result) leak: 2
+46141 46142 64 806cf25020a:1410f907e 0x806CF25: cmd_number (init.c:1054) (result) leak: 2
+5058 5059 1096 806c713020a:806c6ec 0x806C713: parse_line (init.c:806) (result) leak: 137
+

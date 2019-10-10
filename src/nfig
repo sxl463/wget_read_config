@@ -1,0 +1,11 @@
+--2019-10-10 12:49:04--  http://www.google.com/
+Resolving www.google.com... 172.217.15.68, 2607:f8b0:4004:810::2004
+Connecting to www.google.com|172.217.15.68|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 12612 (12K) [text/html]
+Saving to: ‘index.html’
+
+     0K .......... ..                                         100%  195K=0.06s
+
+2019-10-10 12:49:06 (195 KB/s) - ‘index.html’ saved [12612/12612]
+

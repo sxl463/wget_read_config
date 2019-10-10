@@ -1,0 +1,1595 @@
+
+Symbol table '.dynsym' contains 230 entries:
+   Num:    Value  Size Type    Bind   Vis      Ndx Name
+     0: 00000000     0 NOTYPE  LOCAL  DEFAULT  UND 
+     1: 00000000     0 FUNC    GLOBAL DEFAULT  UND fileno@GLIBC_2.0 (2)
+     2: 00000000     0 FUNC    GLOBAL DEFAULT  UND fputs@GLIBC_2.0 (2)
+     3: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_x509_crt_get_expiration_time@GNUTLS_1_4 (3)
+     4: 00000000     0 FUNC    GLOBAL DEFAULT  UND abort@GLIBC_2.0 (2)
+     5: 00000000     0 FUNC    GLOBAL DEFAULT  UND __errno_location@GLIBC_2.0 (2)
+     6: 00000000     0 FUNC    GLOBAL DEFAULT  UND putc_unlocked@GLIBC_2.0 (2)
+     7: 00000000     0 FUNC    GLOBAL DEFAULT  UND inet_ntop@GLIBC_2.0 (2)
+     8: 00000000     0 FUNC    GLOBAL DEFAULT  UND sprintf@GLIBC_2.0 (2)
+     9: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_global_init@GNUTLS_1_4 (3)
+    10: 00000000     0 FUNC    GLOBAL DEFAULT  UND connect@GLIBC_2.0 (2)
+    11: 00000000     0 FUNC    GLOBAL DEFAULT  UND getpid@GLIBC_2.0 (2)
+    12: 00000000     0 FUNC    GLOBAL DEFAULT  UND localeconv@GLIBC_2.2 (4)
+    13: 00000000     0 FUNC    GLOBAL DEFAULT  UND nettle_md4_digest@NETTLE_6 (5)
+    14: 00000000     0 FUNC    GLOBAL DEFAULT  UND mkdir@GLIBC_2.0 (2)
+    15: 00000000     0 FUNC    GLOBAL DEFAULT  UND strerror@GLIBC_2.0 (2)
+    16: 00000000     0 FUNC    GLOBAL DEFAULT  UND getsockname@GLIBC_2.0 (2)
+    17: 00000000     0 FUNC    GLOBAL DEFAULT  UND sysconf@GLIBC_2.0 (2)
+    18: 00000000     0 FUNC    GLOBAL DEFAULT  UND memcmp@GLIBC_2.0 (2)
+    19: 00000000     0 FUNC    GLOBAL DEFAULT  UND qsort@GLIBC_2.0 (2)
+    20: 00000000     0 FUNC    GLOBAL DEFAULT  UND freeaddrinfo@GLIBC_2.0 (2)
+    21: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_record_recv@GNUTLS_1_4 (3)
+    22: 00000000     0 FUNC    GLOBAL DEFAULT  UND nettle_des_encrypt@NETTLE_6 (5)
+    23: 00000000     0 FUNC    GLOBAL DEFAULT  UND random@GLIBC_2.0 (2)
+    24: 00000000     0 FUNC    GLOBAL DEFAULT  UND ngettext@GLIBC_2.2 (4)
+    25: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_x509_crt_get_activation_time@GNUTLS_1_4 (3)
+    26: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_session_set_data@GNUTLS_1_4 (3)
+    27: 00000000     0 FUNC    GLOBAL DEFAULT  UND nettle_md4_update@NETTLE_6 (5)
+    28: 00000000     0 FUNC    GLOBAL DEFAULT  UND open64@GLIBC_2.1 (6)
+    29: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_certificate_verify_peers2@GNUTLS_1_4 (3)
+    30: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_x509_crt_import@GNUTLS_1_4 (3)
+    31: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_record_send@GNUTLS_1_4 (3)
+    32: 00000000     0 FUNC    GLOBAL DEFAULT  UND fputs_unlocked@GLIBC_2.1 (6)
+    33: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_handshake@GNUTLS_1_4 (3)
+    34: 00000000     0 FUNC    GLOBAL DEFAULT  UND clock_gettime@GLIBC_2.17 (7)
+    35: 00000000     0 FUNC    GLOBAL DEFAULT  UND __ctype_get_mb_cur_max@GLIBC_2.0 (2)
+    36: 00000000     0 FUNC    GLOBAL DEFAULT  UND signal@GLIBC_2.0 (2)
+    37: 00000000     0 FUNC    GLOBAL DEFAULT  UND __fsetlocking@GLIBC_2.2 (4)
+    38: 00000000     0 NOTYPE  WEAK   DEFAULT  UND __gmon_start__
+    39: 00000000     0 NOTYPE  WEAK   DEFAULT  UND _Jv_RegisterClasses
+    40: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_certificate_set_x509_trust_file@GNUTLS_1_4 (3)
+    41: 00000000     0 FUNC    GLOBAL DEFAULT  UND realloc@GLIBC_2.0 (2)
+    42: 00000000     0 FUNC    GLOBAL DEFAULT  UND iconv_open@GLIBC_2.1 (6)
+    43: 00000000     0 FUNC    GLOBAL DEFAULT  UND rewind@GLIBC_2.0 (2)
+    44: 00000000     0 FUNC    GLOBAL DEFAULT  UND __xstat64@GLIBC_2.2 (4)
+    45: 00000000     0 FUNC    GLOBAL DEFAULT  UND localtime@GLIBC_2.0 (2)
+    46: 00000000     0 FUNC    GLOBAL DEFAULT  UND gzclose
+    47: 00000000     0 FUNC    GLOBAL DEFAULT  UND strchr@GLIBC_2.0 (2)
+    48: 00000000     0 FUNC    GLOBAL DEFAULT  UND vsnprintf@GLIBC_2.0 (2)
+    49: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_certificate_set_x509_key_file@GNUTLS_1_4 (3)
+    50: 00000000     0 FUNC    GLOBAL DEFAULT  UND recv@GLIBC_2.0 (2)
+    51: 00000000     0 FUNC    GLOBAL DEFAULT  UND getenv@GLIBC_2.0 (2)
+    52: 00000000     0 FUNC    GLOBAL DEFAULT  UND strptime@GLIBC_2.0 (2)
+    53: 00000000     0 FUNC    GLOBAL DEFAULT  UND calloc@GLIBC_2.0 (2)
+    54: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_certificate_allocate_credentials@GNUTLS_1_4 (3)
+    55: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_certificate_set_x509_system_trust@GNUTLS_3_0_0 (8)
+    56: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_transport_set_ptr@GNUTLS_1_4 (3)
+    57: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_certificate_set_verify_flags@GNUTLS_1_4 (3)
+    58: 00000000     0 FUNC    GLOBAL DEFAULT  UND write@GLIBC_2.0 (2)
+    59: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_pubkey_import_x509@GNUTLS_2_12 (9)
+    60: 00000000     0 FUNC    GLOBAL DEFAULT  UND listen@GLIBC_2.0 (2)
+    61: 00000000     0 FUNC    GLOBAL DEFAULT  UND rename@GLIBC_2.0 (2)
+    62: 00000000     0 FUNC    GLOBAL DEFAULT  UND regexec@GLIBC_2.3.4 (10)
+    63: 00000000     0 FUNC    GLOBAL DEFAULT  UND memset@GLIBC_2.0 (2)
+    64: 00000000     0 FUNC    GLOBAL DEFAULT  UND setitimer@GLIBC_2.0 (2)
+    65: 00000000     0 FUNC    GLOBAL DEFAULT  UND fopen64@GLIBC_2.1 (6)
+    66: 00000000     0 FUNC    GLOBAL DEFAULT  UND setsid@GLIBC_2.0 (2)
+    67: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_alert_get_name@GNUTLS_1_4 (3)
+    68: 00000000     0 FUNC    GLOBAL DEFAULT  UND __libc_start_main@GLIBC_2.0 (2)
+    69: 00000000     0 FUNC    GLOBAL DEFAULT  UND _IO_getc@GLIBC_2.0 (2)
+    70: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_x509_crt_deinit@GNUTLS_1_4 (3)
+    71: 00000000     0 FUNC    GLOBAL DEFAULT  UND ferror_unlocked@GLIBC_2.0 (2)
+    72: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_certificate_get_peers@GNUTLS_1_4 (3)
+    73: 00000000     0 FUNC    GLOBAL DEFAULT  UND strrchr@GLIBC_2.0 (2)
+    74: 00000000     0 FUNC    GLOBAL DEFAULT  UND tcgetattr@GLIBC_2.0 (2)
+    75: 00000000     0 FUNC    GLOBAL DEFAULT  UND fseeko64@GLIBC_2.1 (6)
+    76: 00000000     0 FUNC    GLOBAL DEFAULT  UND htons@GLIBC_2.0 (2)
+    77: 00000000     0 FUNC    GLOBAL DEFAULT  UND chmod@GLIBC_2.0 (2)
+    78: 00000000     0 FUNC    GLOBAL DEFAULT  UND mkostemp64@GLIBC_2.7 (11)
+    79: 00000000     0 FUNC    GLOBAL DEFAULT  UND bindtextdomain@GLIBC_2.0 (2)
+    80: 00000000     0 FUNC    GLOBAL DEFAULT  UND mbrtowc@GLIBC_2.0 (2)
+    81: 00000000     0 FUNC    GLOBAL DEFAULT  UND read@GLIBC_2.0 (2)
+    82: 00000000     0 FUNC    GLOBAL DEFAULT  UND timegm@GLIBC_2.0 (2)
+    83: 00000000     0 FUNC    GLOBAL DEFAULT  UND strtoll@GLIBC_2.0 (2)
+    84: 00000000     0 FUNC    GLOBAL DEFAULT  UND perror@GLIBC_2.0 (2)
+    85: 00000000     0 NOTYPE  WEAK   DEFAULT  UND _ITM_deregisterTMCloneTable
+    86: 00000000     0 FUNC    GLOBAL DEFAULT  UND gettext@GLIBC_2.0 (2)
+    87: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_credentials_set@GNUTLS_1_4 (3)
+    88: 00000000     0 FUNC    GLOBAL DEFAULT  UND ungetc@GLIBC_2.0 (2)
+    89: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_init@GNUTLS_1_4 (3)
+    90: 00000000     0 FUNC    GLOBAL DEFAULT  UND strtol@GLIBC_2.0 (2)
+    91: 00000000     0 FUNC    GLOBAL DEFAULT  UND fdopen@GLIBC_2.1 (6)
+    92: 00000000     0 FUNC    GLOBAL DEFAULT  UND free@GLIBC_2.0 (2)
+    93: 00000000     0 FUNC    GLOBAL DEFAULT  UND siglongjmp@GLIBC_2.0 (2)
+    94: 00000000     0 FUNC    GLOBAL DEFAULT  UND __lxstat64@GLIBC_2.2 (4)
+    95: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_error_is_fatal@GNUTLS_1_4 (3)
+    96: 00000000     0 FUNC    GLOBAL DEFAULT  UND getline@GLIBC_2.0 (2)
+    97: 00000000     0 FUNC    GLOBAL DEFAULT  UND gzwrite
+    98: 00000000     0 FUNC    GLOBAL DEFAULT  UND secure_getenv@GLIBC_2.17 (7)
+    99: 00000000     0 NOTYPE  WEAK   DEFAULT  UND _ITM_registerTMCloneTable
+   100: 00000000     0 FUNC    GLOBAL DEFAULT  UND fflush@GLIBC_2.0 (2)
+   101: 00000000     0 FUNC    GLOBAL DEFAULT  UND regcomp@GLIBC_2.0 (2)
+   102: 00000000     0 FUNC    GLOBAL DEFAULT  UND opendir@GLIBC_2.0 (2)
+   103: 00000000     0 FUNC    GLOBAL DEFAULT  UND getopt_long@GLIBC_2.0 (2)
+   104: 00000000     0 FUNC    GLOBAL DEFAULT  UND accept@GLIBC_2.0 (2)
+   105: 00000000     0 FUNC    GLOBAL DEFAULT  UND symlink@GLIBC_2.0 (2)
+   106: 00000000     0 FUNC    GLOBAL DEFAULT  UND ioctl@GLIBC_2.0 (2)
+   107: 00000000     0 FUNC    GLOBAL DEFAULT  UND socket@GLIBC_2.0 (2)
+   108: 00000000     0 FUNC    GLOBAL DEFAULT  UND __ctype_b_loc@GLIBC_2.3 (12)
+   109: 00000000     0 FUNC    GLOBAL DEFAULT  UND fseek@GLIBC_2.0 (2)
+   110: 00000000     0 FUNC    GLOBAL DEFAULT  UND getc_unlocked@GLIBC_2.0 (2)
+   111: 00000000     0 FUNC    GLOBAL DEFAULT  UND gzdopen
+   112: 00000000     0 FUNC    GLOBAL DEFAULT  UND iswcntrl@GLIBC_2.0 (2)
+   113: 00000000     0 FUNC    GLOBAL DEFAULT  UND isatty@GLIBC_2.0 (2)
+   114: 00000000     0 FUNC    GLOBAL DEFAULT  UND getaddrinfo@GLIBC_2.0 (2)
+   115: 00000000     0 FUNC    GLOBAL DEFAULT  UND fclose@GLIBC_2.1 (6)
+   116: 00000000     0 FUNC    GLOBAL DEFAULT  UND ftello64@GLIBC_2.1 (6)
+   117: 00000000     0 FUNC    GLOBAL DEFAULT  UND fread_unlocked@GLIBC_2.1 (6)
+   118: 00000000     0 FUNC    GLOBAL DEFAULT  UND mbsinit@GLIBC_2.0 (2)
+   119: 00000000     0 FUNC    GLOBAL DEFAULT  UND dup@GLIBC_2.0 (2)
+   120: 00000000     0 FUNC    GLOBAL DEFAULT  UND ntohs@GLIBC_2.0 (2)
+   121: 00000000     0 FUNC    GLOBAL DEFAULT  UND readdir64@GLIBC_2.2 (4)
+   122: 00000000     0 FUNC    GLOBAL DEFAULT  UND nanosleep@GLIBC_2.0 (2)
+   123: 00000000     0 FUNC    GLOBAL DEFAULT  UND memcpy@GLIBC_2.0 (2)
+   124: 00000000     0 FUNC    GLOBAL DEFAULT  UND utime@GLIBC_2.0 (2)
+   125: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_alert_get@GNUTLS_1_4 (3)
+   126: 00000000     0 FUNC    GLOBAL DEFAULT  UND strlen@GLIBC_2.0 (2)
+   127: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_deinit@GNUTLS_1_4 (3)
+   128: 00000000     0 FUNC    GLOBAL DEFAULT  UND unlink@GLIBC_2.0 (2)
+   129: 00000000     0 FUNC    GLOBAL DEFAULT  UND iconv@GLIBC_2.1 (6)
+   130: 00000000     0 FUNC    GLOBAL DEFAULT  UND getpwuid@GLIBC_2.0 (2)
+   131: 00000000     0 FUNC    GLOBAL DEFAULT  UND feof_unlocked@GLIBC_2.0 (2)
+   132: 00000000     0 FUNC    GLOBAL DEFAULT  UND gai_strerror@GLIBC_2.1 (6)
+   133: 00000000     0 FUNC    GLOBAL DEFAULT  UND setlocale@GLIBC_2.0 (2)
+   134: 00000000     0 FUNC    GLOBAL DEFAULT  UND clearerr@GLIBC_2.0 (2)
+   135: 00000000     0 FUNC    GLOBAL DEFAULT  UND fgetc@GLIBC_2.0 (2)
+   136: 00000000     0 FUNC    GLOBAL DEFAULT  UND feof@GLIBC_2.0 (2)
+   137: 00000000     0 FUNC    GLOBAL DEFAULT  UND strcpy@GLIBC_2.0 (2)
+   138: 00000000     0 FUNC    GLOBAL DEFAULT  UND printf@GLIBC_2.0 (2)
+   139: 00000000     0 FUNC    GLOBAL DEFAULT  UND bind@GLIBC_2.0 (2)
+   140: 00000000     0 FUNC    GLOBAL DEFAULT  UND getuid@GLIBC_2.0 (2)
+   141: 00000000     0 FUNC    GLOBAL DEFAULT  UND clock_getres@GLIBC_2.17 (7)
+   142: 00000000     0 FUNC    GLOBAL DEFAULT  UND atoi@GLIBC_2.0 (2)
+   143: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_x509_crt_init@GNUTLS_1_4 (3)
+   144: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_record_get_direction@GNUTLS_1_4 (3)
+   145: 00000000     0 FUNC    GLOBAL DEFAULT  UND regerror@GLIBC_2.0 (2)
+   146: 00000000     0 FUNC    GLOBAL DEFAULT  UND select@GLIBC_2.0 (2)
+   147: 00000000     0 FUNC    GLOBAL DEFAULT  UND srandom@GLIBC_2.0 (2)
+   148: 00000000     0 FUNC    GLOBAL DEFAULT  UND closedir@GLIBC_2.0 (2)
+   149: 00000000     0 FUNC    GLOBAL DEFAULT  UND close@GLIBC_2.0 (2)
+   150: 00000000     0 FUNC    GLOBAL DEFAULT  UND fwrite@GLIBC_2.0 (2)
+   151: 00000000     0 FUNC    GLOBAL DEFAULT  UND fprintf@GLIBC_2.0 (2)
+   152: 00000000     0 FUNC    GLOBAL DEFAULT  UND strstr@GLIBC_2.0 (2)
+   153: 00000000     0 FUNC    GLOBAL DEFAULT  UND time@GLIBC_2.0 (2)
+   154: 00000000     0 FUNC    GLOBAL DEFAULT  UND nettle_des_set_key@NETTLE_6 (5)
+   155: 00000000     0 FUNC    GLOBAL DEFAULT  UND strncat@GLIBC_2.0 (2)
+   156: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_x509_crt_check_hostname@GNUTLS_1_4 (3)
+   157: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_record_check_pending@GNUTLS_1_4 (3)
+   158: 00000000     0 FUNC    GLOBAL DEFAULT  UND ftruncate64@GLIBC_2.1 (6)
+   159: 00000000     0 FUNC    GLOBAL DEFAULT  UND nl_langinfo@GLIBC_2.0 (2)
+   160: 00000000     0 FUNC    GLOBAL DEFAULT  UND malloc@GLIBC_2.0 (2)
+   161: 00000000     0 FUNC    GLOBAL DEFAULT  UND __stack_chk_fail@GLIBC_2.4 (13)
+   162: 00000000     0 FUNC    GLOBAL DEFAULT  UND iconv_close@GLIBC_2.1 (6)
+   163: 00000000     0 FUNC    GLOBAL DEFAULT  UND fputc@GLIBC_2.0 (2)
+   164: 00000000     0 FUNC    GLOBAL DEFAULT  UND memrchr@GLIBC_2.2 (4)
+   165: 00000000     0 FUNC    GLOBAL DEFAULT  UND pathconf@GLIBC_2.0 (2)
+   166: 00000000     0 FUNC    GLOBAL DEFAULT  UND error@GLIBC_2.0 (2)
+   167: 00000000     0 FUNC    GLOBAL DEFAULT  UND strtok@GLIBC_2.0 (2)
+   168: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_certificate_set_x509_crl_file@GNUTLS_1_4 (3)
+   169: 00000000     0 FUNC    GLOBAL DEFAULT  UND readlink@GLIBC_2.0 (2)
+   170: 00000000     0 FUNC    GLOBAL DEFAULT  UND strtok_r@GLIBC_2.0 (2)
+   171: 00000000     0 FUNC    GLOBAL DEFAULT  UND strncasecmp@GLIBC_2.0 (2)
+   172: 00000000     0 FUNC    GLOBAL DEFAULT  UND memmove@GLIBC_2.0 (2)
+   173: 00000000     0 FUNC    GLOBAL DEFAULT  UND strndup@GLIBC_2.0 (2)
+   174: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_certificate_type_get@GNUTLS_1_4 (3)
+   175: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_session_is_resumed@GNUTLS_1_4 (3)
+   176: 00000000     0 FUNC    GLOBAL DEFAULT  UND vasprintf@GLIBC_2.0 (2)
+   177: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_pubkey_init@GNUTLS_2_12 (9)
+   178: 00000000     0 FUNC    GLOBAL DEFAULT  UND nettle_md4_init@NETTLE_6 (5)
+   179: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_priority_set_direct@GNUTLS_1_4 (3)
+   180: 00000000     0 FUNC    GLOBAL DEFAULT  UND fork@GLIBC_2.0 (2)
+   181: 00000000     0 FUNC    GLOBAL DEFAULT  UND __fxstat64@GLIBC_2.2 (4)
+   182: 00000000     0 FUNC    GLOBAL DEFAULT  UND textdomain@GLIBC_2.0 (2)
+   183: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_set_default_priority@GNUTLS_1_4 (3)
+   184: 00000000     0 FUNC    GLOBAL DEFAULT  UND setsockopt@GLIBC_2.0 (2)
+   185: 00000000     0 FUNC    GLOBAL DEFAULT  UND mbtowc@GLIBC_2.0 (2)
+   186: 00000000     0 FUNC    GLOBAL DEFAULT  UND tcsetattr@GLIBC_2.0 (2)
+   187: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_session_get_data2@GNUTLS_1_4 (3)
+   188: 00000000     0 FUNC    GLOBAL DEFAULT  UND fcntl@GLIBC_2.0 (2)
+   189: 00000000     0 FUNC    GLOBAL DEFAULT  UND flock@GLIBC_2.0 (2)
+   190: 00000000     0 FUNC    GLOBAL DEFAULT  UND strspn@GLIBC_2.0 (2)
+   191: 00000000     0 FUNC    GLOBAL DEFAULT  UND sscanf@GLIBC_2.0 (2)
+   192: 00000000     0 FUNC    GLOBAL DEFAULT  UND gmtime@GLIBC_2.0 (2)
+   193: 00000000     0 FUNC    GLOBAL DEFAULT  UND fscanf@GLIBC_2.0 (2)
+   194: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_server_name_set@GNUTLS_1_4 (3)
+   195: 00000000     0 FUNC    GLOBAL DEFAULT  UND memchr@GLIBC_2.0 (2)
+   196: 00000000     0 FUNC    GLOBAL DEFAULT  UND strncmp@GLIBC_2.0 (2)
+   197: 00000000     0 FUNC    GLOBAL DEFAULT  UND vfprintf@GLIBC_2.0 (2)
+   198: 00000000     0 FUNC    GLOBAL DEFAULT  UND _IO_putc@GLIBC_2.0 (2)
+   199: 00000000     0 FUNC    GLOBAL DEFAULT  UND munmap@GLIBC_2.0 (2)
+   200: 00000000     0 FUNC    GLOBAL DEFAULT  UND strpbrk@GLIBC_2.0 (2)
+   201: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_pubkey_export@GNUTLS_2_12 (9)
+   202: 00000000     0 FUNC    GLOBAL DEFAULT  UND fread@GLIBC_2.0 (2)
+   203: 00000000     0 FUNC    GLOBAL DEFAULT  UND fflush_unlocked@GLIBC_2.0 (2)
+   204: 00000000     0 FUNC    GLOBAL DEFAULT  UND strftime@GLIBC_2.0 (2)
+   205: 00000000     0 FUNC    GLOBAL DEFAULT  UND snprintf@GLIBC_2.0 (2)
+   206: 00000000     0 FUNC    GLOBAL DEFAULT  UND mmap64@GLIBC_2.1 (6)
+   207: 00000000     0 FUNC    GLOBAL DEFAULT  UND wcwidth@GLIBC_2.0 (2)
+   208: 00000000     0 FUNC    GLOBAL DEFAULT  UND strcspn@GLIBC_2.0 (2)
+   209: 00000000     0 FUNC    GLOBAL DEFAULT  UND strdup@GLIBC_2.0 (2)
+   210: 00000000     0 FUNC    GLOBAL DEFAULT  UND getpeername@GLIBC_2.0 (2)
+   211: 00000000     0 FUNC    GLOBAL DEFAULT  UND iswprint@GLIBC_2.0 (2)
+   212: 00000000     0 FUNC    GLOBAL DEFAULT  UND ferror@GLIBC_2.0 (2)
+   213: 00000000     0 FUNC    GLOBAL DEFAULT  UND __sigsetjmp@GLIBC_2.0 (2)
+   214: 00000000     0 FUNC    GLOBAL DEFAULT  UND exit@GLIBC_2.0 (2)
+   215: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_pubkey_deinit@GNUTLS_2_12 (9)
+   216: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_strerror@GNUTLS_1_4 (3)
+   217: 00000000     0 FUNC    GLOBAL DEFAULT  UND freopen64@GLIBC_2.1 (6)
+   218: 080c1a40     4 OBJECT  GLOBAL DEFAULT   25 stdout@GLIBC_2.0 (2)
+   219: 0804b1c0     0 FUNC    GLOBAL DEFAULT  UND fnmatch@GLIBC_2.2.3 (14)
+   220: 0804a640     0 FUNC    GLOBAL DEFAULT  UND localtime_r@GLIBC_2.0 (2)
+   221: 08093e04     4 OBJECT  GLOBAL DEFAULT   15 _IO_stdin_used
+   222: 080c1a24     4 OBJECT  GLOBAL DEFAULT   25 stderr@GLIBC_2.0 (2)
+   223: 080c1a30     4 OBJECT  GLOBAL DEFAULT   25 gnutls_free@GNUTLS_1_4 (3)
+   224: 080c1a34     4 OBJECT  GLOBAL DEFAULT   25 stdin@GLIBC_2.0 (2)
+   225: 080c1a44     4 OBJECT  GLOBAL DEFAULT   25 opterr@GLIBC_2.0 (2)
+   226: 080c1a20     4 OBJECT  GLOBAL DEFAULT   25 optind@GLIBC_2.0 (2)
+   227: 0804ae60     0 FUNC    GLOBAL DEFAULT  UND strcasecmp@GLIBC_2.0 (2)
+   228: 080c1a48     4 OBJECT  GLOBAL DEFAULT   25 optarg@GLIBC_2.0 (2)
+   229: 0804b2e0     0 FUNC    GLOBAL DEFAULT  UND strcmp@GLIBC_2.0 (2)
+
+Symbol table '.symtab' contains 1359 entries:
+   Num:    Value  Size Type    Bind   Vis      Ndx Name
+     0: 00000000     0 NOTYPE  LOCAL  DEFAULT  UND 
+     1: 08048154     0 SECTION LOCAL  DEFAULT    1 
+     2: 08048168     0 SECTION LOCAL  DEFAULT    2 
+     3: 08048188     0 SECTION LOCAL  DEFAULT    3 
+     4: 080481ac     0 SECTION LOCAL  DEFAULT    4 
+     5: 08048208     0 SECTION LOCAL  DEFAULT    5 
+     6: 08049068     0 SECTION LOCAL  DEFAULT    6 
+     7: 08049b84     0 SECTION LOCAL  DEFAULT    7 
+     8: 08049d50     0 SECTION LOCAL  DEFAULT    8 
+     9: 08049e50     0 SECTION LOCAL  DEFAULT    9 
+    10: 08049e90     0 SECTION LOCAL  DEFAULT   10 
+    11: 0804a560     0 SECTION LOCAL  DEFAULT   11 
+    12: 0804a590     0 SECTION LOCAL  DEFAULT   12 
+    13: 0804b340     0 SECTION LOCAL  DEFAULT   13 
+    14: 08093dd0     0 SECTION LOCAL  DEFAULT   14 
+    15: 08093e00     0 SECTION LOCAL  DEFAULT   15 
+    16: 080b3cd4     0 SECTION LOCAL  DEFAULT   16 
+    17: 080b5608     0 SECTION LOCAL  DEFAULT   17 
+    18: 080bdef0     0 SECTION LOCAL  DEFAULT   18 
+    19: 080bdef4     0 SECTION LOCAL  DEFAULT   19 
+    20: 080bdef8     0 SECTION LOCAL  DEFAULT   20 
+    21: 080bdefc     0 SECTION LOCAL  DEFAULT   21 
+    22: 080bdffc     0 SECTION LOCAL  DEFAULT   22 
+    23: 080be000     0 SECTION LOCAL  DEFAULT   23 
+    24: 080be380     0 SECTION LOCAL  DEFAULT   24 
+    25: 080c1a20     0 SECTION LOCAL  DEFAULT   25 
+    26: 00000000     0 SECTION LOCAL  DEFAULT   26 
+    27: 00000000     0 FILE    LOCAL  DEFAULT  ABS crtstuff.c
+    28: 080bdef8     0 OBJECT  LOCAL  DEFAULT   20 __JCR_LIST__
+    29: 0804b380     0 FUNC    LOCAL  DEFAULT   13 deregister_tm_clones
+    30: 0804b3b0     0 FUNC    LOCAL  DEFAULT   13 register_tm_clones
+    31: 0804b3f0     0 FUNC    LOCAL  DEFAULT   13 __do_global_dtors_aux
+    32: 080c1a4c     1 OBJECT  LOCAL  DEFAULT   25 completed.6600
+    33: 080bdef4     0 OBJECT  LOCAL  DEFAULT   19 __do_global_dtors_aux_fini_array_entry
+    34: 0804b410     0 FUNC    LOCAL  DEFAULT   13 frame_dummy
+    35: 080bdef0     0 OBJECT  LOCAL  DEFAULT   18 __frame_dummy_init_array_entry
+    36: 00000000     0 FILE    LOCAL  DEFAULT  ABS connect.c
+    37: 0804b43d   217 FUNC    LOCAL  DEFAULT   13 sockaddr_set_data
+    38: 0804b516   207 FUNC    LOCAL  DEFAULT   13 sockaddr_get_data
+    39: 0804b5e5    58 FUNC    LOCAL  DEFAULT   13 sockaddr_size
+    40: 0804b61f   305 FUNC    LOCAL  DEFAULT   13 resolve_bind_address
+    41: 080c1a58     1 OBJECT  LOCAL  DEFAULT   25 called.6553
+    42: 080c1a59     1 OBJECT  LOCAL  DEFAULT   25 should_bind.6554
+    43: 080c1a5c    24 OBJECT  LOCAL  DEFAULT   25 ip.6555
+    44: 0804b750    55 FUNC    LOCAL  DEFAULT   13 connect_with_timeout_callback
+    45: 0804b787   120 FUNC    LOCAL  DEFAULT   13 connect_with_timeout
+    46: 0804c750    57 FUNC    LOCAL  DEFAULT   13 sock_read
+    47: 0804c789    57 FUNC    LOCAL  DEFAULT   13 sock_write
+    48: 0804c7c2    51 FUNC    LOCAL  DEFAULT   13 sock_poll
+    49: 0804c7f5    65 FUNC    LOCAL  DEFAULT   13 sock_peek
+    50: 0804c836    52 FUNC    LOCAL  DEFAULT   13 sock_close
+    51: 080c1a50     4 OBJECT  LOCAL  DEFAULT   25 transport_map
+    52: 080c1a54     4 OBJECT  LOCAL  DEFAULT   25 transport_map_modified_tick
+    53: 0804c916   203 FUNC    LOCAL  DEFAULT   13 poll_internal
+    54: 080be388     4 OBJECT  LOCAL  DEFAULT   24 last_fd.6735
+    55: 080c1a74     4 OBJECT  LOCAL  DEFAULT   25 last_tick.6736
+    56: 080c1a78     4 OBJECT  LOCAL  DEFAULT   25 last_info.6734
+    57: 080be38c     4 OBJECT  LOCAL  DEFAULT   24 last_fd.6746
+    58: 080c1a7c     4 OBJECT  LOCAL  DEFAULT   25 last_tick.6747
+    59: 080c1a80     4 OBJECT  LOCAL  DEFAULT   25 last_info.6745
+    60: 080be390     4 OBJECT  LOCAL  DEFAULT   24 last_fd.6757
+    61: 080c1a84     4 OBJECT  LOCAL  DEFAULT   25 last_tick.6758
+    62: 080c1a88     4 OBJECT  LOCAL  DEFAULT   25 last_info.6756
+    63: 00000000     0 FILE    LOCAL  DEFAULT  ABS convert.c
+    64: 080c1a8c     4 OBJECT  LOCAL  DEFAULT   25 dl_file_url_map
+    65: 0804ce48   702 FUNC    LOCAL  DEFAULT   13 convert_links_in_hashtable
+    66: 0804d1a9  1848 FUNC    LOCAL  DEFAULT   13 convert_links
+    67: 0804db6e   373 FUNC    LOCAL  DEFAULT   13 write_backup_file
+    68: 0804d8e1   404 FUNC    LOCAL  DEFAULT   13 construct_relative
+    69: 0804dee6   461 FUNC    LOCAL  DEFAULT   13 local_quote_string
+    70: 0804dce3    35 FUNC    LOCAL  DEFAULT   13 replace_plain
+    71: 0804dd06   212 FUNC    LOCAL  DEFAULT   13 replace_attr
+    72: 0804ddda   163 FUNC    LOCAL  DEFAULT   13 replace_attr_refresh_hack
+    73: 0804da75   249 FUNC    LOCAL  DEFAULT   13 convert_basename
+    74: 080c1a90     4 OBJECT  LOCAL  DEFAULT   25 converted_files
+    75: 0804de7d   105 FUNC    LOCAL  DEFAULT   13 find_fragment
+    76: 0804e0b3   234 FUNC    LOCAL  DEFAULT   13 match_except_index
+    77: 0804e19d   109 FUNC    LOCAL  DEFAULT   13 dissociate_urls_from_file_mapper
+    78: 0804e20a    36 FUNC    LOCAL  DEFAULT   13 dissociate_urls_from_file
+    79: 0804e726    95 FUNC    LOCAL  DEFAULT   13 downloaded_files_free
+    80: 080c1a94     4 OBJECT  LOCAL  DEFAULT   25 downloaded_files_hash
+    81: 0804e625    63 FUNC    LOCAL  DEFAULT   13 downloaded_mode_to_ptr
+    82: 080c1a98     4 OBJECT  LOCAL  DEFAULT   25 v1.5844
+    83: 080be394     4 OBJECT  LOCAL  DEFAULT   24 v2.5845
+    84: 080be398     4 OBJECT  LOCAL  DEFAULT   24 v3.5846
+    85: 080be39c     4 OBJECT  LOCAL  DEFAULT   24 v4.5847
+    86: 00000000     0 FILE    LOCAL  DEFAULT  ABS cookies.c
+    87: 080c1a9c     4 OBJECT  LOCAL  DEFAULT   25 cookies_now
+    88: 0804e9ab    44 FUNC    LOCAL  DEFAULT   13 cookie_new
+    89: 0804e9d7    45 FUNC    LOCAL  DEFAULT   13 cookie_expired_p
+    90: 0804ea04   120 FUNC    LOCAL  DEFAULT   13 delete_cookie
+    91: 0804ea7c   170 FUNC    LOCAL  DEFAULT   13 find_matching_cookie
+    92: 0804eb26   523 FUNC    LOCAL  DEFAULT   13 store_cookie
+    93: 0804ed31   305 FUNC    LOCAL  DEFAULT   13 discard_matching_cookie
+    94: 0804ee62  1336 FUNC    LOCAL  DEFAULT   13 parse_set_cookie
+    95: 0804f39a   368 FUNC    LOCAL  DEFAULT   13 numeric_address_p
+    96: 0804f50a   614 FUNC    LOCAL  DEFAULT   13 check_domain_match
+    97: 080be3a0    28 OBJECT  LOCAL  DEFAULT   24 known_toplevel_domains.4965
+    98: 0804f770    38 FUNC    LOCAL  DEFAULT   13 check_path_match
+    99: 0804fafc    64 FUNC    LOCAL  DEFAULT   13 path_matches
+   100: 0804f9fc    61 FUNC    LOCAL  DEFAULT   13 count_char
+   101: 0804fa39   195 FUNC    LOCAL  DEFAULT   13 find_chains_of_host
+   102: 0804fb3c   204 FUNC    LOCAL  DEFAULT   13 cookie_matches_url
+   103: 0804fc08    96 FUNC    LOCAL  DEFAULT   13 equality_comparator
+   104: 0804fc68   246 FUNC    LOCAL  DEFAULT   13 eliminate_dups
+   105: 0804fd5e    72 FUNC    LOCAL  DEFAULT   13 goodness_comparator
+   106: 080501fd   165 FUNC    LOCAL  DEFAULT   13 domain_port
+   107: 00000000     0 FILE    LOCAL  DEFAULT  ABS ftp.c
+   108: 08050bb8   266 FUNC    LOCAL  DEFAULT   13 ftp_expected_bytes
+   109: 08050cc2   275 FUNC    LOCAL  DEFAULT   13 ftp_do_pasv
+   110: 08050dd5   283 FUNC    LOCAL  DEFAULT   13 ftp_do_port
+   111: 08050ef0   455 FUNC    LOCAL  DEFAULT   13 print_length
+   112: 080510b7    79 FUNC    LOCAL  DEFAULT   13 get_ftp_greeting
+   113: 08051106   325 FUNC    LOCAL  DEFAULT   13 init_control_ssl_connection
+   114: 0805124b 12617 FUNC    LOCAL  DEFAULT   13 getftp
+   115: 080550a9   520 FUNC    LOCAL  DEFAULT   13 ftp_get_listing
+   116: 08054394  3349 FUNC    LOCAL  DEFAULT   13 ftp_loop_internal
+   117: 080552b1  2356 FUNC    LOCAL  DEFAULT   13 ftp_retrieve_list
+   118: 080c1aa0     4 OBJECT  LOCAL  DEFAULT   25 depth.7150
+   119: 08055be5   666 FUNC    LOCAL  DEFAULT   13 ftp_retrieve_dirs
+   120: 08055f0c   991 FUNC    LOCAL  DEFAULT   13 ftp_retrieve_glob
+   121: 08055e7f    60 FUNC    LOCAL  DEFAULT   13 has_insecure_name_p
+   122: 08055ebb    81 FUNC    LOCAL  DEFAULT   13 is_invalid_entry
+   123: 080566dd   135 FUNC    LOCAL  DEFAULT   13 delelement
+   124: 08056764   107 FUNC    LOCAL  DEFAULT   13 freefileinfo
+   125: 00000000     0 FILE    LOCAL  DEFAULT  ABS css_.c
+   126: 080c1ab0     4 OBJECT  LOCAL  DEFAULT   25 yy_buffer_stack_top
+   127: 080c1ab4     4 OBJECT  LOCAL  DEFAULT   25 yy_buffer_stack_max
+   128: 080c1ab8     4 OBJECT  LOCAL  DEFAULT   25 yy_buffer_stack
+   129: 080c1abc     1 OBJECT  LOCAL  DEFAULT   25 yy_hold_char
+   130: 080c1ac0     4 OBJECT  LOCAL  DEFAULT   25 yy_n_chars
+   131: 080c1ac4     4 OBJECT  LOCAL  DEFAULT   25 yy_c_buf_p
+   132: 080c1ac8     4 OBJECT  LOCAL  DEFAULT   25 yy_init
+   133: 080c1acc     4 OBJECT  LOCAL  DEFAULT   25 yy_start
+   134: 080c1ad0     4 OBJECT  LOCAL  DEFAULT   25 yy_did_buffer_switch_on_eof
+   135: 08095780  2306 OBJECT  LOCAL  DEFAULT   15 yy_accept
+   136: 080960a0  1024 OBJECT  LOCAL  DEFAULT   15 yy_ec
+   137: 080964a0   328 OBJECT  LOCAL  DEFAULT   15 yy_meta
+   138: 08096600  2614 OBJECT  LOCAL  DEFAULT   15 yy_base
+   139: 08097040  2614 OBJECT  LOCAL  DEFAULT   15 yy_def
+   140: 08097a80 34692 OBJECT  LOCAL  DEFAULT   15 yy_nxt
+   141: 080a0220 34692 OBJECT  LOCAL  DEFAULT   15 yy_chk
+   142: 080c1ad4     4 OBJECT  LOCAL  DEFAULT   25 yy_last_accepting_state
+   143: 080c1ad8     4 OBJECT  LOCAL  DEFAULT   25 yy_last_accepting_cpos
+   144: 080578d0   271 FUNC    LOCAL  DEFAULT   13 yyensure_buffer_stack
+   145: 08057508   105 FUNC    LOCAL  DEFAULT   13 yy_load_buffer_state
+   146: 0805723f   197 FUNC    LOCAL  DEFAULT   13 yy_get_previous_state
+   147: 08057304   181 FUNC    LOCAL  DEFAULT   13 yy_try_NUL_trans
+   148: 08056d21  1310 FUNC    LOCAL  DEFAULT   13 yy_get_next_buffer
+   149: 08057b8b    46 FUNC    LOCAL  DEFAULT   13 yy_fatal_error
+   150: 0805765f   126 FUNC    LOCAL  DEFAULT   13 yy_init_buffer
+   151: 08057c29    90 FUNC    LOCAL  DEFAULT   13 yy_init_globals
+   152: 00000000     0 FILE    LOCAL  DEFAULT  ABS css-url.c
+   153: 08057d6c   348 FUNC    LOCAL  DEFAULT   13 get_uri_string
+   154: 00000000     0 FILE    LOCAL  DEFAULT  ABS ftp-basic.c
+   155: 08058393   493 FUNC    LOCAL  DEFAULT   13 ftp_request
+   156: 080be3c0     8 OBJECT  LOCAL  DEFAULT   24 skey_head.6748
+   157: 0805889f   154 FUNC    LOCAL  DEFAULT   13 ip_address_to_port_repr
+   158: 08058ad7   612 FUNC    LOCAL  DEFAULT   13 ip_address_to_lprt_repr
+   159: 08058f24   102 FUNC    LOCAL  DEFAULT   13 ip_address_to_eprt_repr
+   160: 080be3c8     8 OBJECT  LOCAL  DEFAULT   24 list_commands.6973
+   161: 00000000     0 FILE    LOCAL  DEFAULT  ABS ftp-ls.c
+   162: 0805a9e2   160 FUNC    LOCAL  DEFAULT   13 symperms
+   163: 0805aa82   125 FUNC    LOCAL  DEFAULT   13 clean_line
+   164: 0805aaff  2985 FUNC    LOCAL  DEFAULT   13 ftp_parse_unix_ls
+   165: 080be3e0    48 OBJECT  LOCAL  DEFAULT   24 months.6705
+   166: 0805b6a8  1429 FUNC    LOCAL  DEFAULT   13 ftp_parse_winnt_ls
+   167: 0805bc3d   282 FUNC    LOCAL  DEFAULT   13 eat_carets
+   168: 0805bd57  2330 FUNC    LOCAL  DEFAULT   13 ftp_parse_vms_ls
+   169: 080be420    48 OBJECT  LOCAL  DEFAULT   24 months.6862
+   170: 00000000     0 FILE    LOCAL  DEFAULT  ABS hash.c
+   171: 0805cdf2    73 FUNC    LOCAL  DEFAULT   13 prime_size
+   172: 080a94c0   284 OBJECT  LOCAL  DEFAULT   15 primes.4710
+   173: 0805d700    26 FUNC    LOCAL  DEFAULT   13 cmp_pointer
+   174: 0805cf73   155 FUNC    LOCAL  DEFAULT   13 find_cell
+   175: 0805d0c7   339 FUNC    LOCAL  DEFAULT   13 grow_hash_table
+   176: 0805d53c    80 FUNC    LOCAL  DEFAULT   13 hash_string
+   177: 0805d58c    40 FUNC    LOCAL  DEFAULT   13 cmp_string
+   178: 0805d5e4   101 FUNC    LOCAL  DEFAULT   13 hash_string_nocase
+   179: 0805d649    40 FUNC    LOCAL  DEFAULT   13 string_cmp_nocase
+   180: 00000000     0 FILE    LOCAL  DEFAULT  ABS host.c
+   181: 0805d93c   315 FUNC    LOCAL  DEFAULT   13 address_list_from_addrinfo
+   182: 0805da77    46 FUNC    LOCAL  DEFAULT   13 cmp_prefer_ipv4
+   183: 0805daa5    46 FUNC    LOCAL  DEFAULT   13 cmp_prefer_ipv6
+   184: 0805dad3    50 FUNC    LOCAL  DEFAULT   13 address_list_delete
+   185: 0805db8d    68 FUNC    LOCAL  DEFAULT   13 getaddrinfo_with_timeout_callback
+   186: 0805dbd1    95 FUNC    LOCAL  DEFAULT   13 getaddrinfo_with_timeout
+   187: 080c1b00    64 OBJECT  LOCAL  DEFAULT   25 buf.5890
+   188: 0805dc97   211 FUNC    LOCAL  DEFAULT   13 is_valid_ipv4_address
+   189: 080c1ae0     4 OBJECT  LOCAL  DEFAULT   25 host_name_addresses_map
+   190: 0805df1b   118 FUNC    LOCAL  DEFAULT   13 cache_query
+   191: 0805df91   197 FUNC    LOCAL  DEFAULT   13 cache_store
+   192: 0805e056    79 FUNC    LOCAL  DEFAULT   13 cache_remove
+   193: 00000000     0 FILE    LOCAL  DEFAULT  ABS hsts.c
+   194: 0805e707    83 FUNC    LOCAL  DEFAULT   13 hsts_hash_func
+   195: 0805e75a    80 FUNC    LOCAL  DEFAULT   13 hsts_cmp_func
+   196: 0805e7aa   378 FUNC    LOCAL  DEFAULT   13 hsts_find_entry
+   197: 0805e924   336 FUNC    LOCAL  DEFAULT   13 hsts_new_entry_internal
+   198: 0805ea74   132 FUNC    LOCAL  DEFAULT   13 hsts_add_entry
+   199: 0805eaf8    92 FUNC    LOCAL  DEFAULT   13 hsts_new_entry
+   200: 0805eb54    28 FUNC    LOCAL  DEFAULT   13 hsts_remove_entry
+   201: 0805eb70   214 FUNC    LOCAL  DEFAULT   13 hsts_store_merge
+   202: 0805ec46   440 FUNC    LOCAL  DEFAULT   13 hsts_read_database
+   203: 0805edfe   266 FUNC    LOCAL  DEFAULT   13 hsts_store_dump
+   204: 0805ef08    89 FUNC    LOCAL  DEFAULT   13 hsts_file_access_valid
+   205: 00000000     0 FILE    LOCAL  DEFAULT  ABS html-parse.c
+   206: 0805f56e   117 FUNC    LOCAL  DEFAULT   13 tagstack_push
+   207: 0805f5e3   224 FUNC    LOCAL  DEFAULT   13 tagstack_pop
+   208: 0805f6c3   101 FUNC    LOCAL  DEFAULT   13 tagstack_find
+   209: 0805f728  1051 FUNC    LOCAL  DEFAULT   13 decode_entity
+   210: 0805fb43  1154 FUNC    LOCAL  DEFAULT   13 convert_and_copy
+   211: 0805ffc5   663 FUNC    LOCAL  DEFAULT   13 advance_declaration
+   212: 0806025c   230 FUNC    LOCAL  DEFAULT   13 find_comment_end
+   213: 08060342   175 FUNC    LOCAL  DEFAULT   13 name_allowed
+   214: 00000000     0 FILE    LOCAL  DEFAULT  ABS html-url.c
+   215: 080be460   300 OBJECT  LOCAL  DEFAULT   24 known_tags
+   216: 080617f5   407 FUNC    LOCAL  DEFAULT   13 tag_find_urls
+   217: 0806198c   257 FUNC    LOCAL  DEFAULT   13 tag_handle_base
+   218: 08061a8d   155 FUNC    LOCAL  DEFAULT   13 tag_handle_form
+   219: 08062041   538 FUNC    LOCAL  DEFAULT   13 tag_handle_img
+   220: 08061b28   351 FUNC    LOCAL  DEFAULT   13 tag_handle_link
+   221: 08061c87   954 FUNC    LOCAL  DEFAULT   13 tag_handle_meta
+   222: 080be5a0   312 OBJECT  LOCAL  DEFAULT   24 tag_url_attributes
+   223: 080be6e0    32 OBJECT  LOCAL  DEFAULT   24 additional_attributes
+   224: 080c1b40     4 OBJECT  LOCAL  DEFAULT   25 interesting_tags
+   225: 080c1b44     4 OBJECT  LOCAL  DEFAULT   25 interesting_attributes
+   226: 080c1b48     4 OBJECT  LOCAL  DEFAULT   25 meta_charset
+   227: 080611d6   420 FUNC    LOCAL  DEFAULT   13 init_interesting
+   228: 0806137a   117 FUNC    LOCAL  DEFAULT   13 find_attr
+   229: 08061737   190 FUNC    LOCAL  DEFAULT   13 check_style_attr
+   230: 0806225b   216 FUNC    LOCAL  DEFAULT   13 collect_tags_mapper
+   231: 00000000     0 FILE    LOCAL  DEFAULT  ABS http.c
+   232: 080c1b60     1 OBJECT  LOCAL  DEFAULT   25 cookies_loaded_p
+   233: 080c1b64     4 OBJECT  LOCAL  DEFAULT   25 wget_cookie_jar
+   234: 080627b6    94 FUNC    LOCAL  DEFAULT   13 request_new
+   235: 08062814    10 FUNC    LOCAL  DEFAULT   13 request_method
+   236: 0806281e   136 FUNC    LOCAL  DEFAULT   13 release_header
+   237: 080628a6   309 FUNC    LOCAL  DEFAULT   13 request_set_header
+   238: 080629db   233 FUNC    LOCAL  DEFAULT   13 request_set_user_header
+   239: 08062ac4   186 FUNC    LOCAL  DEFAULT   13 request_remove_header
+   240: 08062b7e   798 FUNC    LOCAL  DEFAULT   13 request_send
+   241: 08062e9c   151 FUNC    LOCAL  DEFAULT   13 request_free
+   242: 080c1b68     4 OBJECT  LOCAL  DEFAULT   25 basic_authed_hosts
+   243: 08062f33   235 FUNC    LOCAL  DEFAULT   13 maybe_send_basic_creds
+   244: 0806ac93   275 FUNC    LOCAL  DEFAULT   13 basic_authentication_encode
+   245: 0806301e   137 FUNC    LOCAL  DEFAULT   13 register_basic_auth_host
+   246: 080630a7   478 FUNC    LOCAL  DEFAULT   13 body_file_send
+   247: 080c1ba0  8192 OBJECT  LOCAL  DEFAULT   25 chunk.7057
+   248: 08063285   222 FUNC    LOCAL  DEFAULT   13 response_head_terminator
+   249: 08063363    56 FUNC    LOCAL  DEFAULT   13 read_http_response_head
+   250: 0806339b   432 FUNC    LOCAL  DEFAULT   13 resp_new
+   251: 0806354b   338 FUNC    LOCAL  DEFAULT   13 resp_header_locate
+   252: 0806369d    58 FUNC    LOCAL  DEFAULT   13 resp_header_get
+   253: 080636d7   125 FUNC    LOCAL  DEFAULT   13 resp_header_copy
+   254: 08063754    85 FUNC    LOCAL  DEFAULT   13 resp_header_strdup
+   255: 080637a9   585 FUNC    LOCAL  DEFAULT   13 resp_status
+   256: 080639f2    75 FUNC    LOCAL  DEFAULT   13 resp_free
+   257: 08063a3d   179 FUNC    LOCAL  DEFAULT   13 print_response_line
+   258: 08063af0   179 FUNC    LOCAL  DEFAULT   13 print_server_response
+   259: 08063ba3   723 FUNC    LOCAL  DEFAULT   13 parse_content_range
+   260: 08063e76   843 FUNC    LOCAL  DEFAULT   13 skip_short_body
+   261: 080641c1   185 FUNC    LOCAL  DEFAULT   13 modify_param_name
+   262: 0806427a    78 FUNC    LOCAL  DEFAULT   13 modify_param_value
+   263: 0806459d   187 FUNC    LOCAL  DEFAULT   13 append_value_to_filename
+   264: 08064658   575 FUNC    LOCAL  DEFAULT   13 parse_content_disposition
+   265: 08064897   406 FUNC    LOCAL  DEFAULT   13 parse_strict_transport_security
+   266: 080c1b6c     1 OBJECT  LOCAL  DEFAULT   25 pconn_active
+   267: 080c1b70    28 OBJECT  LOCAL  DEFAULT   25 pconn
+   268: 08064a2d   114 FUNC    LOCAL  DEFAULT   13 invalidate_persistent
+   269: 08064a9f   130 FUNC    LOCAL  DEFAULT   13 register_persistent
+   270: 08064b21   342 FUNC    LOCAL  DEFAULT   13 persistent_available_p
+   271: 08064c77   176 FUNC    LOCAL  DEFAULT   13 free_hstat
+   272: 08064d27   103 FUNC    LOCAL  DEFAULT   13 get_file_flags
+   273: 08064d8e   762 FUNC    LOCAL  DEFAULT   13 read_response_body
+   274: 08065088   208 FUNC    LOCAL  DEFAULT   13 time_to_rfc1123
+   275: 080be700    48 OBJECT  LOCAL  DEFAULT   24 month.7398
+   276: 080be730    28 OBJECT  LOCAL  DEFAULT   24 wkday.7397
+   277: 080be74c     4 OBJECT  LOCAL  DEFAULT   24 time_format.7399
+   278: 08065158  1722 FUNC    LOCAL  DEFAULT   13 initialize_request
+   279: 080be750    16 OBJECT  LOCAL  DEFAULT   24 hfmt.7419
+   280: 08065812   144 FUNC    LOCAL  DEFAULT   13 initialize_proxy_configuration
+   281: 080658a2  1809 FUNC    LOCAL  DEFAULT   13 establish_connection
+   282: 08065fb3   304 FUNC    LOCAL  DEFAULT   13 set_file_timestamp
+   283: 080660e3   489 FUNC    LOCAL  DEFAULT   13 check_file_output
+   284: 080662cc  1472 FUNC    LOCAL  DEFAULT   13 check_auth
+   285: 0806b991   318 FUNC    LOCAL  DEFAULT   13 known_authentication_scheme_p
+   286: 0806bacf   231 FUNC    LOCAL  DEFAULT   13 create_authorization_line
+   287: 0806688c   587 FUNC    LOCAL  DEFAULT   13 open_output_stream
+   288: 08066ad7   177 FUNC    LOCAL  DEFAULT   13 set_content_type
+   289: 08066b88 10510 FUNC    LOCAL  DEFAULT   13 gethttp
+   290: 0806bc63   467 FUNC    LOCAL  DEFAULT   13 ensure_extension
+   291: 0806bbb6    80 FUNC    LOCAL  DEFAULT   13 load_cookies
+   292: 0806aa86   153 FUNC    LOCAL  DEFAULT   13 check_end
+   293: 080be760    16 OBJECT  LOCAL  DEFAULT   24 time_formats.7697
+   294: 0806ada6    97 FUNC    LOCAL  DEFAULT   13 dump_hash
+   295: 0806ae07  2954 FUNC    LOCAL  DEFAULT   13 digest_authentication_encode
+   296: 080c3ba0     4 OBJECT  LOCAL  DEFAULT   25 qop.7734
+   297: 080c3ba4     4 OBJECT  LOCAL  DEFAULT   25 algorithm.7735
+   298: 080c3ba8     4 OBJECT  LOCAL  DEFAULT   25 nonce.7733
+   299: 080c3bac     4 OBJECT  LOCAL  DEFAULT   25 opaque.7732
+   300: 080c3bb0     4 OBJECT  LOCAL  DEFAULT   25 realm.7731
+   301: 080be780    40 OBJECT  LOCAL  DEFAULT   24 options.7739
+   302: 00000000     0 FILE    LOCAL  DEFAULT  ABS init.c
+   303: 080ab640  1932 OBJECT  LOCAL  DEFAULT   15 commands
+   304: 0806d198    86 FUNC    LOCAL  DEFAULT   13 cmd_vector
+   305: 0806cfc9    59 FUNC    LOCAL  DEFAULT   13 cmd_string
+   306: 0806cd9c   148 FUNC    LOCAL  DEFAULT   13 cmd_boolean
+   307: 0806cee9   145 FUNC    LOCAL  DEFAULT   13 cmd_number
+   308: 0806d084    59 FUNC    LOCAL  DEFAULT   13 cmd_file
+   309: 0806d12b   109 FUNC    LOCAL  DEFAULT   13 cmd_directory
+   310: 0806d6f6   132 FUNC    LOCAL  DEFAULT   13 cmd_cert_type
+   311: 0806ce30   185 FUNC    LOCAL  DEFAULT   13 cmd_check_cert
+   312: 0806d55e   408 FUNC    LOCAL  DEFAULT   13 cmd_time
+   313: 0806d0bf   108 FUNC    LOCAL  DEFAULT   13 cmd_file_once
+   314: 0806d77a    80 FUNC    LOCAL  DEFAULT   13 cmd_spec_dirstruct
+   315: 0806d428   155 FUNC    LOCAL  DEFAULT   13 cmd_bytes
+   316: 0806d1ee   177 FUNC    LOCAL  DEFAULT   13 cmd_directory_vector
+   317: 0806d7ca   174 FUNC    LOCAL  DEFAULT   13 cmd_spec_header
+   318: 0806d926    74 FUNC    LOCAL  DEFAULT   13 cmd_spec_htmlify
+   319: 0806d004   128 FUNC    LOCAL  DEFAULT   13 cmd_string_uppercase
+   320: 0806d970   111 FUNC    LOCAL  DEFAULT   13 cmd_spec_mirror
+   321: 0806cf7a    79 FUNC    LOCAL  DEFAULT   13 cmd_number_inf
+   322: 0806d9df   147 FUNC    LOCAL  DEFAULT   13 cmd_spec_prefer_family
+   323: 0806da72   148 FUNC    LOCAL  DEFAULT   13 cmd_spec_progress
+   324: 0806d4c3   155 FUNC    LOCAL  DEFAULT   13 cmd_bytes_sum
+   325: 0806db06    85 FUNC    LOCAL  DEFAULT   13 cmd_spec_recursive
+   326: 0806db5b   147 FUNC    LOCAL  DEFAULT   13 cmd_spec_regex_type
+   327: 0806de85   129 FUNC    LOCAL  DEFAULT   13 cmd_spec_report_speed
+   328: 0806dbee   663 FUNC    LOCAL  DEFAULT   13 cmd_spec_restrict_file_names
+   329: 0806df06   132 FUNC    LOCAL  DEFAULT   13 cmd_spec_secure_protocol
+   330: 0806e072    61 FUNC    LOCAL  DEFAULT   13 cmd_spec_progressdisp
+   331: 0806df8a    79 FUNC    LOCAL  DEFAULT   13 cmd_spec_timeout
+   332: 0806dfd9   153 FUNC    LOCAL  DEFAULT   13 cmd_spec_useragent
+   333: 0806e0af    71 FUNC    LOCAL  DEFAULT   13 cmd_spec_verbose
+   334: 0806d878   174 FUNC    LOCAL  DEFAULT   13 cmd_spec_warc_header
+   335: 0806be36   126 FUNC    LOCAL  DEFAULT   13 command_by_name
+   336: 080c3bb4     4 OBJECT  LOCAL  DEFAULT   25 home.7080
+   337: 080c3bb8     4 OBJECT  LOCAL  DEFAULT   25 ret.7081
+   338: 080c3bbc     4 OBJECT  LOCAL  DEFAULT   25 buf.7079
+   339: 0806c6ec   537 FUNC    LOCAL  DEFAULT   13 parse_line
+   340: 0806c98e   290 FUNC    LOCAL  DEFAULT   13 setval_internal_tilde
+   341: 0806c695    87 FUNC    LOCAL  DEFAULT   13 dehyphen
+   342: 0806c905   137 FUNC    LOCAL  DEFAULT   13 setval_internal
+   343: 0806cc16   390 FUNC    LOCAL  DEFAULT   13 cmd_boolean_internal
+   344: 0806e0f6   348 FUNC    LOCAL  DEFAULT   13 simple_atoi
+   345: 0806d29f   393 FUNC    LOCAL  DEFAULT   13 parse_bytes_helper
+   346: 0806e252   336 FUNC    LOCAL  DEFAULT   13 simple_atof
+   347: 080ac280    24 OBJECT  LOCAL  DEFAULT   15 choices.7389
+   348: 0806e41e   100 FUNC    LOCAL  DEFAULT   13 decode_string
+   349: 0806e3a2   124 FUNC    LOCAL  DEFAULT   13 check_user_specified_header
+   350: 080ac2a8    24 OBJECT  LOCAL  DEFAULT   15 choices.7425
+   351: 080ac2c8     8 OBJECT  LOCAL  DEFAULT   15 choices.7443
+   352: 080ac300    56 OBJECT  LOCAL  DEFAULT   15 choices.7468
+   353: 00000000     0 FILE    LOCAL  DEFAULT  ABS log.c
+   354: 080c3bc0     4 OBJECT  LOCAL  DEFAULT   25 logfp
+   355: 080c3bc4     4 OBJECT  LOCAL  DEFAULT   25 warclogfp
+   356: 080c3bc8     1 OBJECT  LOCAL  DEFAULT   25 inhibit_logging
+   357: 080c3bc9     1 OBJECT  LOCAL  DEFAULT   25 save_context_p
+   358: 080be7a8     1 OBJECT  LOCAL  DEFAULT   24 flush_log_p
+   359: 080c3bca     1 OBJECT  LOCAL  DEFAULT   25 needs_flushing
+   360: 080c3be0  3360 OBJECT  LOCAL  DEFAULT   25 log_lines
+   361: 080be7ac     4 OBJECT  LOCAL  DEFAULT   24 log_line_current
+   362: 080c4900     1 OBJECT  LOCAL  DEFAULT   25 trailing_line
+   363: 0806e4c4    68 FUNC    LOCAL  DEFAULT   13 free_log_line
+   364: 0806e508   691 FUNC    LOCAL  DEFAULT   13 saved_append_1
+   365: 0806e7bb    97 FUNC    LOCAL  DEFAULT   13 saved_append
+   366: 0806e81c    44 FUNC    LOCAL  DEFAULT   13 get_log_fp
+   367: 0806e848    43 FUNC    LOCAL  DEFAULT   13 get_progress_fp
+   368: 0806e873    44 FUNC    LOCAL  DEFAULT   13 get_warc_log_fp
+   369: 0806f4d7    33 FUNC    LOCAL  DEFAULT   13 check_redirect_output
+   370: 0806e9c0   574 FUNC    LOCAL  DEFAULT   13 log_vprintf_internal
+   371: 0806ef71   323 FUNC    LOCAL  DEFAULT   13 log_dump_context
+   372: 0806f0b4    68 FUNC    LOCAL  DEFAULT   13 count_nonprint
+   373: 0806f0f8   337 FUNC    LOCAL  DEFAULT   13 copy_and_escape
+   374: 080c4904    24 OBJECT  LOCAL  DEFAULT   25 ring
+   375: 0806f249   235 FUNC    LOCAL  DEFAULT   13 escnonprint_internal
+   376: 080c4924     4 OBJECT  LOCAL  DEFAULT   25 ringpos.5514
+   377: 080c491c     4 OBJECT  LOCAL  DEFAULT   25 redirect_request
+   378: 080c4920     4 OBJECT  LOCAL  DEFAULT   25 redirect_request_signal_name
+   379: 0806f3cf   264 FUNC    LOCAL  DEFAULT   13 redirect_output
+   380: 00000000     0 FILE    LOCAL  DEFAULT  ABS main.c
+   381: 0806f523    76 FUNC    LOCAL  DEFAULT   13 redirect_output_signal
+   382: 0806f56f    60 FUNC    LOCAL  DEFAULT   13 i18n_initialize
+   383: 0806f5ab   102 FUNC    LOCAL  DEFAULT   13 get_hsts_database
+   384: 0806f611   160 FUNC    LOCAL  DEFAULT   13 load_hsts
+   385: 0806f6b1   132 FUNC    LOCAL  DEFAULT   13 save_hsts
+   386: 080be7c0  3140 OBJECT  LOCAL  DEFAULT   24 option_data
+   387: 0806f94f   167 FUNC    LOCAL  DEFAULT   13 print_help
+   388: 0806fdb6   923 FUNC    LOCAL  DEFAULT   13 print_version
+   389: 0806f735    97 FUNC    LOCAL  DEFAULT   13 no_prefix
+   390: 080bf404     4 OBJECT  LOCAL  DEFAULT   24 p.7266
+   391: 080c4960  5040 OBJECT  LOCAL  DEFAULT   25 long_options
+   392: 080c5d20   128 OBJECT  LOCAL  DEFAULT   25 short_options
+   393: 080c5da0    96 OBJECT  LOCAL  DEFAULT   25 optmap
+   394: 0806f796   368 FUNC    LOCAL  DEFAULT   13 init_switches
+   395: 0806f906    73 FUNC    LOCAL  DEFAULT   13 print_usage
+   396: 080bf420   684 OBJECT  LOCAL  DEFAULT   24 help.7295
+   397: 0806f9f6   466 FUNC    LOCAL  DEFAULT   13 secs_to_human_time
+   398: 080c6600    32 OBJECT  LOCAL  DEFAULT   25 buf.7303
+   399: 0806fbc8   128 FUNC    LOCAL  DEFAULT   13 prompt_for_password
+   400: 0806fc48   366 FUNC    LOCAL  DEFAULT   13 format_and_print_line
+   401: 080c5e00  2048 OBJECT  LOCAL  DEFAULT   25 buffer.7265
+   402: 00000000     0 FILE    LOCAL  DEFAULT  ABS netrc.c
+   403: 080c6620     4 OBJECT  LOCAL  DEFAULT   25 netrc_list
+   404: 080c6624     4 OBJECT  LOCAL  DEFAULT   25 processed_netrc.4691
+   405: 08071ea8  1199 FUNC    LOCAL  DEFAULT   13 parse_netrc
+   406: 08071dbe   192 FUNC    LOCAL  DEFAULT   13 maybe_add_to_list
+   407: 08071e7e    42 FUNC    LOCAL  DEFAULT   13 shift_left
+   408: 00000000     0 FILE    LOCAL  DEFAULT  ABS progress.c
+   409: 080bf6e0    56 OBJECT  LOCAL  DEFAULT   24 implementations
+   410: 08072638   637 FUNC    LOCAL  DEFAULT   13 dot_create
+   411: 08072c80    68 FUNC    LOCAL  DEFAULT   13 dot_update
+   412: 08072cc4   408 FUNC    LOCAL  DEFAULT   13 dot_draw
+   413: 08072e5c   371 FUNC    LOCAL  DEFAULT   13 dot_finish
+   414: 08072fcf   361 FUNC    LOCAL  DEFAULT   13 dot_set_params
+   415: 08073138   306 FUNC    LOCAL  DEFAULT   13 bar_create
+   416: 0807326a   208 FUNC    LOCAL  DEFAULT   13 bar_update
+   417: 0807333a   257 FUNC    LOCAL  DEFAULT   13 bar_draw
+   418: 0807343b   249 FUNC    LOCAL  DEFAULT   13 bar_finish
+   419: 08074599   196 FUNC    LOCAL  DEFAULT   13 bar_set_params
+   420: 080c6628     4 OBJECT  LOCAL  DEFAULT   25 current_impl
+   421: 080c662c     4 OBJECT  LOCAL  DEFAULT   25 current_impl_locked
+   422: 080c6630     4 OBJECT  LOCAL  DEFAULT   25 output_redirected
+   423: 080728b5   971 FUNC    LOCAL  DEFAULT   13 print_row_stats
+   424: 080bf718     4 OBJECT  LOCAL  DEFAULT   24 names.6595
+   425: 08074683   572 FUNC    LOCAL  DEFAULT   13 eta_to_human_short
+   426: 080c6634     4 OBJECT  LOCAL  DEFAULT   25 screen_width
+   427: 080c6638     4 OBJECT  LOCAL  DEFAULT   25 received_sigwinch
+   428: 08073985  3018 FUNC    LOCAL  DEFAULT   13 create_image
+   429: 0807454f    74 FUNC    LOCAL  DEFAULT   13 display_image
+   430: 08073534   525 FUNC    LOCAL  DEFAULT   13 update_speed_ring
+   431: 08073741   133 FUNC    LOCAL  DEFAULT   13 count_cols
+   432: 080737c6   344 FUNC    LOCAL  DEFAULT   13 cols_to_bytes
+   433: 0807391e   103 FUNC    LOCAL  DEFAULT   13 get_eta
+   434: 080c663c     4 OBJECT  LOCAL  DEFAULT   25 eta_trans.6721
+   435: 080b0fc4    11 OBJECT  LOCAL  DEFAULT   15 eta_str.6720
+   436: 080c6640     4 OBJECT  LOCAL  DEFAULT   25 bytes_cols_diff.6722
+   437: 080bf71c    16 OBJECT  LOCAL  DEFAULT   24 short_units.6755
+   438: 080bf72c    16 OBJECT  LOCAL  DEFAULT   24 short_units_bits.6756
+   439: 080bf73c     4 OBJECT  LOCAL  DEFAULT   24 last.6785
+   440: 080c6644    10 OBJECT  LOCAL  DEFAULT   25 buf.6784
+   441: 00000000     0 FILE    LOCAL  DEFAULT  ABS ptimer.c
+   442: 080c6650     4 OBJECT  LOCAL  DEFAULT   25 posix_clock_id
+   443: 080c6658     8 OBJECT  LOCAL  DEFAULT   25 posix_clock_resolution
+   444: 080748bf   276 FUNC    LOCAL  DEFAULT   13 posix_init
+   445: 080b107c    16 OBJECT  LOCAL  DEFAULT   15 clocks.5393
+   446: 080749d3    28 FUNC    LOCAL  DEFAULT   13 posix_measure
+   447: 080749ef    66 FUNC    LOCAL  DEFAULT   13 posix_diff
+   448: 08074a31    11 FUNC    LOCAL  DEFAULT   13 posix_resolution
+   449: 080c6660     1 OBJECT  LOCAL  DEFAULT   25 init_done.5418
+   450: 00000000     0 FILE    LOCAL  DEFAULT  ABS recur.c
+   451: 08074b52    34 FUNC    LOCAL  DEFAULT   13 url_queue_new
+   452: 08074b74    26 FUNC    LOCAL  DEFAULT   13 url_queue_delete
+   453: 08074b8e   407 FUNC    LOCAL  DEFAULT   13 url_enqueue
+   454: 08074d25   289 FUNC    LOCAL  DEFAULT   13 url_dequeue
+   455: 08074e46    69 FUNC    LOCAL  DEFAULT   13 blacklist_add
+   456: 08074e8b    75 FUNC    LOCAL  DEFAULT   13 blacklist_contains
+   457: 08075fe7    51 FUNC    LOCAL  DEFAULT   13 write_reject_log_header
+   458: 08075f0a   221 FUNC    LOCAL  DEFAULT   13 descend_redirect
+   459: 08076130   256 FUNC    LOCAL  DEFAULT   13 write_reject_log_reason
+   460: 080758ac  1630 FUNC    LOCAL  DEFAULT   13 download_child
+   461: 0807601a   278 FUNC    LOCAL  DEFAULT   13 write_reject_log_url
+   462: 00000000     0 FILE    LOCAL  DEFAULT  ABS res.c
+   463: 08076230   101 FUNC    LOCAL  DEFAULT   13 match_user_agent
+   464: 08076295   212 FUNC    LOCAL  DEFAULT   13 add_path
+   465: 08076369   229 FUNC    LOCAL  DEFAULT   13 prune_non_exact
+   466: 080768d9   117 FUNC    LOCAL  DEFAULT   13 free_specs
+   467: 0807694e   500 FUNC    LOCAL  DEFAULT   13 matches
+   468: 080c6664     4 OBJECT  LOCAL  DEFAULT   25 registered_specs
+   469: 00000000     0 FILE    LOCAL  DEFAULT  ABS retr.c
+   470: 0807707b    88 FUNC    LOCAL  DEFAULT   13 VALGRIND_PRINTF
+   471: 080770d3    88 FUNC    LOCAL  DEFAULT   13 VALGRIND_PRINTF_BACKTRACE
+   472: 080c6668    24 OBJECT  LOCAL  DEFAULT   25 limit_data
+   473: 0807712b    36 FUNC    LOCAL  DEFAULT   13 limit_bandwidth_reset
+   474: 0807714f   503 FUNC    LOCAL  DEFAULT   13 limit_bandwidth
+   475: 08077346   369 FUNC    LOCAL  DEFAULT   13 write_data
+   476: 08077d60    56 FUNC    LOCAL  DEFAULT   13 line_terminator
+   477: 080bf740    16 OBJECT  LOCAL  DEFAULT   24 rate_names.7120
+   478: 080bf750    16 OBJECT  LOCAL  DEFAULT   24 rate_names_bits.7121
+   479: 080c6680    20 OBJECT  LOCAL  DEFAULT   25 res.7119
+   480: 0807903f   306 FUNC    LOCAL  DEFAULT   13 getproxy
+   481: 080bf760     1 OBJECT  LOCAL  DEFAULT   24 first_retrieval.7205
+   482: 080791b4    46 FUNC    LOCAL  DEFAULT   13 no_proxy_match
+   483: 080bf761     1 OBJECT  LOCAL  DEFAULT   24 first.7257
+   484: 00000000     0 FILE    LOCAL  DEFAULT  ABS spider.c
+   485: 080c6694     4 OBJECT  LOCAL  DEFAULT   25 nonexisting_urls_set
+   486: 00000000     0 FILE    LOCAL  DEFAULT  ABS url.c
+   487: 080bf780    80 OBJECT  LOCAL  DEFAULT   24 supported_schemes
+   488: 080b1a40   256 OBJECT  LOCAL  DEFAULT   15 urlchr_table
+   489: 08079386   335 FUNC    LOCAL  DEFAULT   13 url_unescape_1
+   490: 0807950b   323 FUNC    LOCAL  DEFAULT   13 url_escape_1
+   491: 080796ae    48 FUNC    LOCAL  DEFAULT   13 url_escape_allow_passthrough
+   492: 080796de   144 FUNC    LOCAL  DEFAULT   13 char_needs_escaping
+   493: 0807976e   271 FUNC    LOCAL  DEFAULT   13 reencode_escapes
+   494: 080799ef    57 FUNC    LOCAL  DEFAULT   13 url_skip_credentials
+   495: 08079a28   186 FUNC    LOCAL  DEFAULT   13 parse_credentials
+   496: 08079c0b    60 FUNC    LOCAL  DEFAULT   13 strpbrk_or_eos
+   497: 08079c47    81 FUNC    LOCAL  DEFAULT   13 lowercase_str
+   498: 08079c98   109 FUNC    LOCAL  DEFAULT   13 init_seps
+   499: 080bf804     8 OBJECT  LOCAL  DEFAULT   24 seps.6933
+   500: 080bf7e0    36 OBJECT  LOCAL  DEFAULT   24 parse_errors
+   501: 0807b922   383 FUNC    LOCAL  DEFAULT   13 path_simplify
+   502: 0807a487   145 FUNC    LOCAL  DEFAULT   13 split_path
+   503: 0807a518   123 FUNC    LOCAL  DEFAULT   13 full_path_length
+   504: 0807a593   224 FUNC    LOCAL  DEFAULT   13 full_path_write
+   505: 0807a6ba   153 FUNC    LOCAL  DEFAULT   13 unescape_single_char
+   506: 0807a753    73 FUNC    LOCAL  DEFAULT   13 url_escape_dir
+   507: 0807a79c   363 FUNC    LOCAL  DEFAULT   13 sync_path
+   508: 0807abd7   126 FUNC    LOCAL  DEFAULT   13 append_null
+   509: 0807ac55   171 FUNC    LOCAL  DEFAULT   13 append_char
+   510: 0807ad00   199 FUNC    LOCAL  DEFAULT   13 append_string
+   511: 080b1ca0   256 OBJECT  LOCAL  DEFAULT   15 filechr_table
+   512: 0807adc7   913 FUNC    LOCAL  DEFAULT   13 append_uri_pathel
+   513: 0807b158   721 FUNC    LOCAL  DEFAULT   13 convert_fname
+   514: 0807b429   151 FUNC    LOCAL  DEFAULT   13 append_dir_structure
+   515: 0807baa1    83 FUNC    LOCAL  DEFAULT   13 path_end
+   516: 0807c331   307 FUNC    LOCAL  DEFAULT   13 getchar_from_escaped_string
+   517: 00000000     0 FILE    LOCAL  DEFAULT  ABS warc.c
+   518: 080c66a0     4 OBJECT  LOCAL  DEFAULT   25 warc_log_fp
+   519: 080c66a4     4 OBJECT  LOCAL  DEFAULT   25 warc_manifest_fp
+   520: 080c66a8     4 OBJECT  LOCAL  DEFAULT   25 warc_current_file
+   521: 080c66ac     4 OBJECT  LOCAL  DEFAULT   25 warc_current_gzfile
+   522: 080c66b0     8 OBJECT  LOCAL  DEFAULT   25 warc_current_gzfile_offset
+   523: 080c66b8     8 OBJECT  LOCAL  DEFAULT   25 warc_current_gzfile_uncompressed_size
+   524: 080c66c0     1 OBJECT  LOCAL  DEFAULT   25 warc_write_ok
+   525: 080c66c4     4 OBJECT  LOCAL  DEFAULT   25 warc_current_cdx_file
+   526: 080c66e0    48 OBJECT  LOCAL  DEFAULT   25 warc_current_warcinfo_uuid_str
+   527: 080c6710     4 OBJECT  LOCAL  DEFAULT   25 warc_current_filename
+   528: 080c6714     4 OBJECT  LOCAL  DEFAULT   25 warc_current_file_number
+   529: 080c6718     4 OBJECT  LOCAL  DEFAULT   25 warc_cdx_dedup_table
+   530: 0807c524    26 FUNC    LOCAL  DEFAULT   13 warc_hash_sha1_digest
+   531: 0807c53e    48 FUNC    LOCAL  DEFAULT   13 warc_cmp_sha1_digest
+   532: 0807c56e   132 FUNC    LOCAL  DEFAULT   13 warc_write_buffer
+   533: 0807c5f2    80 FUNC    LOCAL  DEFAULT   13 warc_write_string
+   534: 0807c642   336 FUNC    LOCAL  DEFAULT   13 warc_write_start_record
+   535: 0807d5f8   517 FUNC    LOCAL  DEFAULT   13 warc_start_new_file
+   536: 0807c792    67 FUNC    LOCAL  DEFAULT   13 warc_write_header
+   537: 0807c7d5    67 FUNC    LOCAL  DEFAULT   13 warc_write_header_uri
+   538: 0807c818   321 FUNC    LOCAL  DEFAULT   13 warc_write_block_from_file
+   539: 0807c959   705 FUNC    LOCAL  DEFAULT   13 warc_write_end_record
+   540: 0807cc1a    95 FUNC    LOCAL  DEFAULT   13 warc_write_date_header
+   541: 0807cc79    57 FUNC    LOCAL  DEFAULT   13 warc_write_ip_header
+   542: 0807ccb2   990 FUNC    LOCAL  DEFAULT   13 warc_sha1_stream_with_payload
+   543: 0807d090    91 FUNC    LOCAL  DEFAULT   13 warc_base32_sha1_digest
+   544: 0807d0eb   202 FUNC    LOCAL  DEFAULT   13 warc_write_digest_headers
+   545: 0807d38b   621 FUNC    LOCAL  DEFAULT   13 warc_write_warcinfo_record
+   546: 0807d7fd   230 FUNC    LOCAL  DEFAULT   13 warc_start_cdx_file
+   547: 0807d8e3   250 FUNC    LOCAL  DEFAULT   13 warc_parse_cdx_header
+   548: 0807d9dd   522 FUNC    LOCAL  DEFAULT   13 warc_process_cdx_line
+   549: 0807dbe7   501 FUNC    LOCAL  DEFAULT   13 warc_load_cdx_dedup_file
+   550: 0807dddc    87 FUNC    LOCAL  DEFAULT   13 warc_find_duplicate_cdx_record
+   551: 0807dfb6   446 FUNC    LOCAL  DEFAULT   13 warc_write_metadata
+   552: 0807e35e   498 FUNC    LOCAL  DEFAULT   13 warc_write_cdx_record
+   553: 0807e550   447 FUNC    LOCAL  DEFAULT   13 warc_write_revisit_record
+   554: 0807eae7   294 FUNC    LOCAL  DEFAULT   13 warc_write_record
+   555: 00000000     0 FILE    LOCAL  DEFAULT  ABS utils.c
+   556: 0807ecd9   136 FUNC    LOCAL  DEFAULT   13 memfatal
+   557: 0807f0be    81 FUNC    LOCAL  DEFAULT   13 fmttime
+   558: 080c67e0    32 OBJECT  LOCAL  DEFAULT   25 output.6436
+   559: 0807f4fa   197 FUNC    LOCAL  DEFAULT   13 unique_name_1
+   560: 0807fd4f   268 FUNC    LOCAL  DEFAULT   13 in_acclist
+   561: 0807fbad   162 FUNC    LOCAL  DEFAULT   13 dir_matches_p
+   562: 0808051a   137 FUNC    LOCAL  DEFAULT   13 get_grouping_data
+   563: 080c6800     1 OBJECT  LOCAL  DEFAULT   25 initialized.6683
+   564: 080c6804     4 OBJECT  LOCAL  DEFAULT   25 cached_sep.6681
+   565: 080c6808     4 OBJECT  LOCAL  DEFAULT   25 cached_grouping.6682
+   566: 080c6820    48 OBJECT  LOCAL  DEFAULT   25 outbuf.6688
+   567: 080c6850     8 OBJECT  LOCAL  DEFAULT   25 buf.6705
+   568: 080bf920     6 OBJECT  LOCAL  DEFAULT   24 powers.6704
+   569: 080c6858     4 OBJECT  LOCAL  DEFAULT   25 ringpos.6730
+   570: 080c6860    72 OBJECT  LOCAL  DEFAULT   25 ring.6729
+   571: 080c6720     4 OBJECT  LOCAL  DEFAULT   25 rnd_seeded
+   572: 080c6740   156 OBJECT  LOCAL  DEFAULT   25 run_with_timeout_env
+   573: 0808498a    26 FUNC    LOCAL  DEFAULT   13 abort_run_with_timeout
+   574: 080849a4   175 FUNC    LOCAL  DEFAULT   13 alarm_set
+   575: 08084a53    62 FUNC    LOCAL  DEFAULT   13 alarm_cancel
+   576: 080b28c0    64 OBJECT  LOCAL  DEFAULT   15 tbl.6781
+   577: 080b2900   128 OBJECT  LOCAL  DEFAULT   15 base64_char_to_value.6796
+   578: 08085239   540 FUNC    LOCAL  DEFAULT   13 mergesort_internal
+   579: 080c68c0    32 OBJECT  LOCAL  DEFAULT   25 buf.6866
+   580: 08085759   422 FUNC    LOCAL  DEFAULT   13 wg_pubkey_pem_to_der
+   581: 00000000     0 FILE    LOCAL  DEFAULT  ABS exits.c
+   582: 080c68e0     4 OBJECT  LOCAL  DEFAULT   25 final_exit_status
+   583: 08085bfc    80 FUNC    LOCAL  DEFAULT   13 get_status_for_err
+   584: 00000000     0 FILE    LOCAL  DEFAULT  ABS build_info.c
+   585: 00000000     0 FILE    LOCAL  DEFAULT  ABS version.c
+   586: 00000000     0 FILE    LOCAL  DEFAULT  ABS ftp-opie.c
+   587: 080bf9a0  8192 OBJECT  LOCAL  DEFAULT   24 Wp
+   588: 08085c9e   178 FUNC    LOCAL  DEFAULT   13 extract
+   589: 08085d50   983 FUNC    LOCAL  DEFAULT   13 btoe
+   590: 080c68e4    30 OBJECT  LOCAL  DEFAULT   25 english.5760
+   591: 00000000     0 FILE    LOCAL  DEFAULT  ABS gnutls.c
+   592: 080862cd    41 FUNC    LOCAL  DEFAULT   13 key_type_to_gnutls_type
+   593: 080c6904     4 OBJECT  LOCAL  DEFAULT   25 credentials
+   594: 080c6908     1 OBJECT  LOCAL  DEFAULT   25 ssl_initialized.10783
+   595: 080867ee   623 FUNC    LOCAL  DEFAULT   13 wgnutls_read_timeout
+   596: 08086e2c   524 FUNC    LOCAL  DEFAULT   13 _do_handshake
+   597: 08086a5d   232 FUNC    LOCAL  DEFAULT   13 wgnutls_read
+   598: 08086b45    74 FUNC    LOCAL  DEFAULT   13 wgnutls_write
+   599: 08086b8f   175 FUNC    LOCAL  DEFAULT   13 wgnutls_poll
+   600: 08086c3e   360 FUNC    LOCAL  DEFAULT   13 wgnutls_peek
+   601: 08086da6    34 FUNC    LOCAL  DEFAULT   13 wgnutls_errstr
+   602: 08086dc8   100 FUNC    LOCAL  DEFAULT   13 wgnutls_close
+   603: 080c19a0    24 OBJECT  LOCAL  DEFAULT   24 wgnutls_transport
+   604: 08087038    87 FUNC    LOCAL  DEFAULT   13 _sni_hostname
+   605: 08087488   319 FUNC    LOCAL  DEFAULT   13 pkp_pin_peer_pubkey
+   606: 00000000     0 FILE    LOCAL  DEFAULT  ABS http-ntlm.c
+   607: 08087c47   292 FUNC    LOCAL  DEFAULT   13 setup_des_key
+   608: 08087d6b   194 FUNC    LOCAL  DEFAULT   13 calc_resp
+   609: 08087e2d   751 FUNC    LOCAL  DEFAULT   13 mkhash
+   610: 080b3408     8 OBJECT  LOCAL  DEFAULT   15 magic.4792
+   611: 00000000     0 FILE    LOCAL  DEFAULT  ABS base32.c
+   612: 08088b3f    18 FUNC    LOCAL  DEFAULT   13 to_uchar
+   613: 080b3520    32 OBJECT  LOCAL  DEFAULT   15 b32str.2334
+   614: 080b3420   256 OBJECT  LOCAL  DEFAULT   15 b32
+   615: 08088f3b   218 FUNC    LOCAL  DEFAULT   13 get_8
+   616: 08089015  1202 FUNC    LOCAL  DEFAULT   13 decode_8
+   617: 00000000     0 FILE    LOCAL  DEFAULT  ABS c-ctype.c
+   618: 00000000     0 FILE    LOCAL  DEFAULT  ABS c-strcasecmp.c
+   619: 00000000     0 FILE    LOCAL  DEFAULT  ABS c-strncasecmp.c
+   620: 00000000     0 FILE    LOCAL  DEFAULT  ABS md5.c
+   621: 080b3620    64 OBJECT  LOCAL  DEFAULT   15 fillbuf
+   622: 08089a29    13 FUNC    LOCAL  DEFAULT   13 set_uint32
+   623: 00000000     0 FILE    LOCAL  DEFAULT  ABS sha1.c
+   624: 080b3660    64 OBJECT  LOCAL  DEFAULT   15 fillbuf
+   625: 0808ac47    13 FUNC    LOCAL  DEFAULT   13 set_uint32
+   626: 00000000     0 FILE    LOCAL  DEFAULT  ABS sha256.c
+   627: 080b36a0    64 OBJECT  LOCAL  DEFAULT   15 fillbuf
+   628: 0808cba7    13 FUNC    LOCAL  DEFAULT   13 set_uint32
+   629: 0808ccba   422 FUNC    LOCAL  DEFAULT   13 sha256_conclude_ctx
+   630: 080b36e0   256 OBJECT  LOCAL  DEFAULT   15 sha256_round_constants
+   631: 00000000     0 FILE    LOCAL  DEFAULT  ABS basename.c
+   632: 00000000     0 FILE    LOCAL  DEFAULT  ABS basename-lgpl.c
+   633: 00000000     0 FILE    LOCAL  DEFAULT  ABS mbchar.c
+   634: 00000000     0 FILE    LOCAL  DEFAULT  ABS mbiter.c
+   635: 00000000     0 FILE    LOCAL  DEFAULT  ABS quotearg.c
+   636: 080c6920    48 OBJECT  LOCAL  DEFAULT   25 default_quoting_options
+   637: 0809092f   130 FUNC    LOCAL  DEFAULT   13 quoting_options_from_style
+   638: 080909b1   155 FUNC    LOCAL  DEFAULT   13 gettext_quote
+   639: 08090a4c  2826 FUNC    LOCAL  DEFAULT   13 quotearg_buffer_restyled
+   640: 080c6960   256 OBJECT  LOCAL  DEFAULT   25 slot0
+   641: 080c19c0     4 OBJECT  LOCAL  DEFAULT   24 nslots
+   642: 080c19c4     8 OBJECT  LOCAL  DEFAULT   24 slotvec0
+   643: 080c19cc     4 OBJECT  LOCAL  DEFAULT   24 slotvec
+   644: 080917b3   558 FUNC    LOCAL  DEFAULT   13 quotearg_n_options
+   645: 00000000     0 FILE    LOCAL  DEFAULT  ABS tmpdir.c
+   646: 08091e9a    60 FUNC    LOCAL  DEFAULT   13 direxists
+   647: 00000000     0 FILE    LOCAL  DEFAULT  ABS xmalloc.c
+   648: 00000000     0 FILE    LOCAL  DEFAULT  ABS xalloc-die.c
+   649: 00000000     0 FILE    LOCAL  DEFAULT  ABS xstrndup.c
+   650: 00000000     0 FILE    LOCAL  DEFAULT  ABS fcntl.c
+   651: 080c6a60     4 OBJECT  LOCAL  DEFAULT   25 have_dupfd_cloexec.2461
+   652: 00000000     0 FILE    LOCAL  DEFAULT  ABS getpass.c
+   653: 0809245e    25 FUNC    LOCAL  DEFAULT   13 call_fclose
+   654: 080c6a68     4 OBJECT  LOCAL  DEFAULT   25 bufsize.2881
+   655: 080c6a64     4 OBJECT  LOCAL  DEFAULT   25 buf.2880
+   656: 00000000     0 FILE    LOCAL  DEFAULT  ABS ioctl.c
+   657: 00000000     0 FILE    LOCAL  DEFAULT  ABS mktime.c
+   658: 08092720   162 FUNC    LOCAL  DEFAULT   13 leapyear
+   659: 080b3c60    52 OBJECT  LOCAL  DEFAULT   15 __mon_yday
+   660: 080927c2    49 FUNC    LOCAL  DEFAULT   13 isdst_differ
+   661: 080927f3   461 FUNC    LOCAL  DEFAULT   13 ydhms_diff
+   662: 080929c0    33 FUNC    LOCAL  DEFAULT   13 time_t_avg
+   663: 080929e1    39 FUNC    LOCAL  DEFAULT   13 time_t_add_ok
+   664: 08092a08    39 FUNC    LOCAL  DEFAULT   13 time_t_int_add_ok
+   665: 08092a2f   255 FUNC    LOCAL  DEFAULT   13 guess_time_tm
+   666: 08092b2e   213 FUNC    LOCAL  DEFAULT   13 ranged_convert
+   667: 080c6a6c     4 OBJECT  LOCAL  DEFAULT   25 localtime_offset
+   668: 00000000     0 FILE    LOCAL  DEFAULT  ABS exitfail.c
+   669: 00000000     0 FILE    LOCAL  DEFAULT  ABS localcharset.c
+   670: 080c6a70     4 OBJECT  LOCAL  DEFAULT   25 charset_aliases
+   671: 08093465  1110 FUNC    LOCAL  DEFAULT   13 get_charset_aliases
+   672: 00000000     0 FILE    LOCAL  DEFAULT  ABS crtstuff.c
+   673: 080bc1b8     0 OBJECT  LOCAL  DEFAULT   17 __FRAME_END__
+   674: 080bdef8     0 OBJECT  LOCAL  DEFAULT   20 __JCR_END__
+   675: 00000000     0 FILE    LOCAL  DEFAULT  ABS 
+   676: 080be000     0 OBJECT  LOCAL  DEFAULT   23 _GLOBAL_OFFSET_TABLE_
+   677: 080bdef4     0 NOTYPE  LOCAL  DEFAULT   18 __init_array_end
+   678: 080bdef0     0 NOTYPE  LOCAL  DEFAULT   18 __init_array_start
+   679: 080bdefc     0 OBJECT  LOCAL  DEFAULT   21 _DYNAMIC
+   680: 00000000     0 FUNC    GLOBAL DEFAULT  UND fileno@@GLIBC_2.0
+   681: 080be380     0 NOTYPE  WEAK   DEFAULT   24 data_start
+   682: 00000000     0 FUNC    GLOBAL DEFAULT  UND fputs@@GLIBC_2.0
+   683: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_x509_crt_get_expiration_time@@GNUTLS_1_4
+   684: 00000000     0 FUNC    GLOBAL DEFAULT  UND abort@@GLIBC_2.0
+   685: 00000000     0 FUNC    GLOBAL DEFAULT  UND __errno_location@@GLIBC_2.0
+   686: 08092087    53 FUNC    GLOBAL DEFAULT   13 xnrealloc
+   687: 08079906   147 FUNC    GLOBAL DEFAULT   13 url_has_scheme
+   688: 08076b42   206 FUNC    GLOBAL DEFAULT   13 res_match_path
+   689: 080794f0    27 FUNC    GLOBAL DEFAULT   13 url_unescape_except_reserved
+   690: 0807f007   183 FUNC    GLOBAL DEFAULT   13 concat_strings
+   691: 0805d42c   125 FUNC    GLOBAL DEFAULT   13 hash_table_for_each
+   692: 0809171b   152 FUNC    GLOBAL DEFAULT   13 quotearg_free
+   693: 0805c7c9  1577 FUNC    GLOBAL DEFAULT   13 ftp_index
+   694: 0805a013   251 FUNC    GLOBAL DEFAULT   13 ftp_cwd
+   695: 00000000     0 FUNC    GLOBAL DEFAULT  UND putc_unlocked@@GLIBC_2.0
+   696: 080875c7  1307 FUNC    GLOBAL DEFAULT   13 ssl_check_certificate
+   697: 0805d734    25 FUNC    GLOBAL DEFAULT   13 address_list_address_at
+   698: 00000000     0 FUNC    GLOBAL DEFAULT  UND inet_ntop@@GLIBC_2.0
+   699: 00000000     0 FUNC    GLOBAL DEFAULT  UND sprintf@@GLIBC_2.0
+   700: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_global_init@@GNUTLS_1_4
+   701: 080c6a74     4 OBJECT  GLOBAL DEFAULT   25 downloaded_css_set
+   702: 0807f6d3   107 FUNC    GLOBAL DEFAULT   13 fopen_excl
+   703: 0805f268   336 FUNC    GLOBAL DEFAULT   13 hsts_store_open
+   704: 00000000     0 FUNC    GLOBAL DEFAULT  UND connect@@GLIBC_2.0
+   705: 080804cb    79 FUNC    GLOBAL DEFAULT   13 free_keys_and_values
+   706: 0804a640     0 FUNC    GLOBAL DEFAULT  UND localtime_r@@GLIBC_2.0
+   707: 0804cae6   263 FUNC    GLOBAL DEFAULT   13 fd_peek
+   708: 0805a816   368 FUNC    GLOBAL DEFAULT   13 ftp_size
+   709: 0807a907    62 FUNC    GLOBAL DEFAULT   13 url_set_dir
+   710: 00000000     0 FUNC    GLOBAL DEFAULT  UND getpid@@GLIBC_2.0
+   711: 00000000     0 FUNC    GLOBAL DEFAULT  UND localeconv@@GLIBC_2.2
+   712: 00000000     0 FUNC    GLOBAL DEFAULT  UND nettle_md4_digest@@NETTLE_6
+   713: 08091a0b    41 FUNC    GLOBAL DEFAULT   13 quotearg_n_mem
+   714: 08076d4d   218 FUNC    GLOBAL DEFAULT   13 res_get_specs
+   715: 0808970d    48 FUNC    GLOBAL DEFAULT   13 c_isalnum
+   716: 00000000     0 FUNC    GLOBAL DEFAULT  UND mkdir@@GLIBC_2.0
+   717: 0808cabf   116 FUNC    GLOBAL DEFAULT   13 sha256_init_ctx
+   718: 00000000     0 FUNC    GLOBAL DEFAULT  UND strerror@@GLIBC_2.0
+   719: 080897c1    28 FUNC    GLOBAL DEFAULT   13 c_isdigit
+   720: 08071ba7   535 FUNC    GLOBAL DEFAULT   13 search_netrc
+   721: 00000000     0 FUNC    GLOBAL DEFAULT  UND getsockname@@GLIBC_2.0
+   722: 08091ed6   387 FUNC    GLOBAL DEFAULT   13 path_search
+   723: 080603f1  3557 FUNC    GLOBAL DEFAULT   13 map_html_tags
+   724: 08091e5d    34 FUNC    GLOBAL DEFAULT   13 quote_n
+   725: 08093d30     2 FUNC    GLOBAL DEFAULT   13 __libc_csu_fini
+   726: 00000000     0 FUNC    GLOBAL DEFAULT  UND sysconf@@GLIBC_2.0
+   727: 00000000     0 FUNC    GLOBAL DEFAULT  UND memcmp@@GLIBC_2.0
+   728: 08074b3f    19 FUNC    GLOBAL DEFAULT   13 ptimer_resolution
+   729: 0807ef34    96 FUNC    GLOBAL DEFAULT   13 aprintf
+   730: 08084884    52 FUNC    GLOBAL DEFAULT   13 convert_to_bits
+   731: 08090530   128 FUNC    GLOBAL DEFAULT   13 mb_copy
+   732: 00000000     0 FUNC    GLOBAL DEFAULT  UND qsort@@GLIBC_2.0
+   733: 00000000     0 FUNC    GLOBAL DEFAULT  UND freeaddrinfo@@GLIBC_2.0
+   734: 080805a3   360 FUNC    GLOBAL DEFAULT   13 with_thousand_seps
+   735: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_record_recv@@GNUTLS_1_4
+   736: 0808d154    74 FUNC    GLOBAL DEFAULT   13 sha256_buffer
+   737: 0805f4cb    47 FUNC    GLOBAL DEFAULT   13 hsts_store_has_changed
+   738: 0804b340     0 FUNC    GLOBAL DEFAULT   13 _start
+   739: 08091a71    62 FUNC    GLOBAL DEFAULT   13 quotearg_n_style
+   740: 0805814e   234 FUNC    GLOBAL DEFAULT   13 get_urls_css_file
+   741: 00000000     0 FUNC    GLOBAL DEFAULT  UND nettle_des_encrypt@@NETTLE_6
+   742: 0808b0ae    74 FUNC    GLOBAL DEFAULT   13 sha1_buffer
+   743: 08091de2    48 FUNC    GLOBAL DEFAULT   13 quotearg_custom_mem
+   744: 00000000     0 FUNC    GLOBAL DEFAULT  UND random@@GLIBC_2.0
+   745: 080862f6  1272 FUNC    GLOBAL DEFAULT   13 ssl_init
+   746: 00000000     0 FUNC    GLOBAL DEFAULT  UND ngettext@@GLIBC_2.2
+   747: 08091a34    27 FUNC    GLOBAL DEFAULT   13 quotearg
+   748: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_x509_crt_get_activation_time@@GNUTLS_1_4
+   749: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_session_set_data@@GNUTLS_1_4
+   750: 0807ef94   115 FUNC    GLOBAL DEFAULT   13 strlcpy
+   751: 00000000     0 FUNC    GLOBAL DEFAULT  UND nettle_md4_update@@NETTLE_6
+   752: 00000000     0 FUNC    GLOBAL DEFAULT  UND open64@@GLIBC_2.1
+   753: 0807c464   192 FUNC    GLOBAL DEFAULT   13 are_urls_equal
+   754: 0805d042    84 FUNC    GLOBAL DEFAULT   13 hash_table_get_pair
+   755: 08076fc8    73 FUNC    GLOBAL DEFAULT   13 is_robots_txt_url
+   756: 0807964e    48 FUNC    GLOBAL DEFAULT   13 url_escape
+   757: 0805a471   623 FUNC    GLOBAL DEFAULT   13 ftp_syst
+   758: 08088f04    41 FUNC    GLOBAL DEFAULT   13 isbase32
+   759: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_certificate_verify_peers2@@GNUTLS_1_4
+   760: 0808b2e5  6106 FUNC    GLOBAL DEFAULT   13 sha1_process_block
+   761: 080575ef   112 FUNC    GLOBAL DEFAULT   13 yy_delete_buffer
+   762: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_x509_crt_import@@GNUTLS_1_4
+   763: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_record_send@@GNUTLS_1_4
+   764: 00000000     0 FUNC    GLOBAL DEFAULT  UND fputs_unlocked@@GLIBC_2.1
+   765: 08076e27   417 FUNC    GLOBAL DEFAULT   13 res_retrieve_file
+   766: 0807f15f   413 FUNC    GLOBAL DEFAULT   13 fork_to_background
+   767: 08062333   381 FUNC    GLOBAL DEFAULT   13 get_urls_html
+   768: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_handshake@@GNUTLS_1_4
+   769: 00000000     0 FUNC    GLOBAL DEFAULT  UND clock_gettime@@GLIBC_2.17
+   770: 080915e3    41 FUNC    GLOBAL DEFAULT   13 quotearg_alloc
+   771: 00000000     0 FUNC    GLOBAL DEFAULT  UND __ctype_get_mb_cur_max@@GLIBC_2.0
+   772: 00000000     0 FUNC    GLOBAL DEFAULT  UND signal@@GLIBC_2.0
+   773: 08089670   157 FUNC    GLOBAL DEFAULT   13 base32_decode_alloc_ctx
+   774: 00000000     0 FUNC    GLOBAL DEFAULT  UND __fsetlocking@@GLIBC_2.2
+   775: 080b37e0    32 OBJECT  GLOBAL DEFAULT   15 is_basic_table
+   776: 08089831    58 FUNC    GLOBAL DEFAULT   13 c_ispunct
+   777: 08085c4c    55 FUNC    GLOBAL DEFAULT   13 inform_exit_status
+   778: 08078d29    58 FUNC    GLOBAL DEFAULT   13 printwhat
+   779: 00000000     0 NOTYPE  WEAK   DEFAULT  UND __gmon_start__
+   780: 00000000     0 NOTYPE  WEAK   DEFAULT  UND _Jv_RegisterClasses
+   781: 08093442    35 FUNC    GLOBAL DEFAULT   13 rpl_mktime
+   782: 080c19e0    48 OBJECT  GLOBAL DEFAULT   24 quote_quoting_options
+   783: 08072455   197 FUNC    GLOBAL DEFAULT   13 set_progress_implementation
+   784: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_certificate_set_x509_trust_file@@GNUTLS_1_4
+   785: 080c6cd8     8 OBJECT  GLOBAL DEFAULT   25 total_downloaded_bytes
+   786: 08093e00     4 OBJECT  GLOBAL DEFAULT   15 _fp_hw
+   787: 08084962    40 FUNC    GLOBAL DEFAULT   13 random_float
+   788: 00000000     0 FUNC    GLOBAL DEFAULT  UND realloc@@GLIBC_2.0
+   789: 0806f334    48 FUNC    GLOBAL DEFAULT   13 escnonprint
+   790: 0805d096    49 FUNC    GLOBAL DEFAULT   13 hash_table_contains
+   791: 00000000     0 FUNC    GLOBAL DEFAULT  UND iconv_open@@GLIBC_2.1
+   792: 0804e976    53 FUNC    GLOBAL DEFAULT   13 cookie_jar_new
+   793: 00000000     0 FUNC    GLOBAL DEFAULT  UND rewind@@GLIBC_2.0
+   794: 00000000     0 FUNC    GLOBAL DEFAULT  UND __xstat64@@GLIBC_2.2
+   795: 0806beb4   527 FUNC    GLOBAL DEFAULT   13 defaults
+   796: 00000000     0 FUNC    GLOBAL DEFAULT  UND localtime@@GLIBC_2.0
+   797: 0804e3e2   159 FUNC    GLOBAL DEFAULT   13 register_redirection
+   798: 0805e0a5  1087 FUNC    GLOBAL DEFAULT   13 lookup_host
+   799: 08093af0   450 FUNC    GLOBAL HIDDEN    13 __moddi3
+   800: 0808ce60    37 FUNC    GLOBAL DEFAULT   13 sha256_finish_ctx
+   801: 00000000     0 FUNC    GLOBAL DEFAULT  UND gzclose
+   802: 08062782    52 FUNC    GLOBAL DEFAULT   13 cleanup_html_url
+   803: 00000000     0 FUNC    GLOBAL DEFAULT  UND strchr@@GLIBC_2.0
+   804: 00000000     0 FUNC    GLOBAL DEFAULT  UND vsnprintf@@GLIBC_2.0
+   805: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_certificate_set_x509_key_file@@GNUTLS_1_4
+   806: 00000000     0 FUNC    GLOBAL DEFAULT  UND recv@@GLIBC_2.0
+   807: 00000000     0 FUNC    GLOBAL DEFAULT  UND getenv@@GLIBC_2.0
+   808: 00000000     0 FUNC    GLOBAL DEFAULT  UND strptime@@GLIBC_2.0
+   809: 08074b34    11 FUNC    GLOBAL DEFAULT   13 ptimer_read
+   810: 08093dd0     0 FUNC    GLOBAL DEFAULT   14 _fini
+   811: 0806ecab   266 FUNC    GLOBAL DEFAULT   13 logprintf
+   812: 0805dc30   103 FUNC    GLOBAL DEFAULT   13 print_address
+   813: 00000000     0 FUNC    GLOBAL DEFAULT  UND calloc@@GLIBC_2.0
+   814: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_certificate_allocate_credentials@@GNUTLS_1_4
+   815: 08084a91   206 FUNC    GLOBAL DEFAULT   13 run_with_timeout
+   816: 080642c8   725 FUNC    GLOBAL DEFAULT   13 extract_param
+   817: 08057820   176 FUNC    GLOBAL DEFAULT   13 yypop_buffer_state
+   818: 08057bcd    10 FUNC    GLOBAL DEFAULT   13 yyget_out
+   819: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_certificate_set_x509_system_trust@@GNUTLS_3_0_0
+   820: 0806ec86    37 FUNC    GLOBAL DEFAULT   13 log_set_save_context
+   821: 0808adc6   403 FUNC    GLOBAL DEFAULT   13 sha1_finish_ctx
+   822: 0806ebfe    65 FUNC    GLOBAL DEFAULT   13 logflush
+   823: 08079d05  1695 FUNC    GLOBAL DEFAULT   13 url_parse
+   824: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_transport_set_ptr@@GNUTLS_1_4
+   825: 08093d70    48 FUNC    GLOBAL HIDDEN    13 fstat64
+   826: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_certificate_set_verify_flags@@GNUTLS_1_4
+   827: 080c4940     4 OBJECT  GLOBAL DEFAULT   25 numurls
+   828: 00000000     0 FUNC    GLOBAL DEFAULT  UND write@@GLIBC_2.0
+   829: 0809213e    19 FUNC    GLOBAL DEFAULT   13 xcharalloc
+   830: 0806ee20   221 FUNC    GLOBAL DEFAULT   13 log_init
+   831: 08057c1c    13 FUNC    GLOBAL DEFAULT   13 yyset_debug
+   832: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_pubkey_import_x509@@GNUTLS_2_12
+   833: 0808708f  1017 FUNC    GLOBAL DEFAULT   13 ssl_connect_wget
+   834: 08058939   414 FUNC    GLOBAL DEFAULT   13 ftp_port
+   835: 0804be33   627 FUNC    GLOBAL DEFAULT   13 bind_local
+   836: 00000000     0 FUNC    GLOBAL DEFAULT  UND listen@@GLIBC_2.0
+   837: 0805963f  1670 FUNC    GLOBAL DEFAULT   13 ftp_lpsv
+   838: 0806cb4c   202 FUNC    GLOBAL DEFAULT   13 run_command
+   839: 08057beb    13 FUNC    GLOBAL DEFAULT   13 yyset_lineno
+   840: 08077e8d   271 FUNC    GLOBAL DEFAULT   13 calc_rate
+   841: 08088b51   816 FUNC    GLOBAL DEFAULT   13 base32_encode
+   842: 00000000     0 FUNC    GLOBAL DEFAULT  UND rename@@GLIBC_2.0
+   843: 00000000     0 FUNC    GLOBAL DEFAULT  UND regexec@@GLIBC_2.3.4
+   844: 00000000     0 FUNC    GLOBAL DEFAULT  UND memset@@GLIBC_2.0
+   845: 00000000     0 FUNC    GLOBAL DEFAULT  UND setitimer@@GLIBC_2.0
+   846: 0808ce85    37 FUNC    GLOBAL DEFAULT   13 sha224_finish_ctx
+   847: 08077dc9   196 FUNC    GLOBAL DEFAULT   13 retr_rate
+   848: 00000000     0 FUNC    GLOBAL DEFAULT  UND fopen64@@GLIBC_2.1
+   849: 0806e482    66 FUNC    GLOBAL DEFAULT   13 cleanup
+   850: 0807967e    48 FUNC    GLOBAL DEFAULT   13 url_escape_unsafe_and_reserved
+   851: 080c1aa8     4 OBJECT  GLOBAL DEFAULT   25 yyout
+   852: 00000000     0 FUNC    GLOBAL DEFAULT  UND setsid@@GLIBC_2.0
+   853: 0804c4c2   430 FUNC    GLOBAL DEFAULT   13 select_fd
+   854: 0807f417    41 FUNC    GLOBAL DEFAULT   13 file_exists_p
+   855: 0808abf1    86 FUNC    GLOBAL DEFAULT   13 sha1_init_ctx
+   856: 080894c7   425 FUNC    GLOBAL DEFAULT   13 base32_decode_ctx
+   857: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_alert_get_name@@GNUTLS_1_4
+   858: 080bf97c     4 OBJECT  GLOBAL DEFAULT   24 compilation_string
+   859: 0808988e    28 FUNC    GLOBAL DEFAULT   13 c_isupper
+   860: 0804c8e4    50 FUNC    GLOBAL DEFAULT   13 fd_transport_context
+   861: 00000000     0 FUNC    GLOBAL DEFAULT  UND __libc_start_main@@GLIBC_2.0
+   862: 080897dd    28 FUNC    GLOBAL DEFAULT   13 c_isgraph
+   863: 080725b8    85 FUNC    GLOBAL DEFAULT   13 progress_update
+   864: 0807fcbd   146 FUNC    GLOBAL DEFAULT   13 match_tail
+   865: 0807f137    40 FUNC    GLOBAL DEFAULT   13 datetime_str
+   866: 08074a83    26 FUNC    GLOBAL DEFAULT   13 ptimer_destroy
+   867: 0804c670   224 FUNC    GLOBAL DEFAULT   13 test_socket_open
+   868: 00000000     0 FUNC    GLOBAL DEFAULT  UND _IO_getc@@GLIBC_2.0
+   869: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_x509_crt_deinit@@GNUTLS_1_4
+   870: 0806ab1f   372 FUNC    GLOBAL DEFAULT   13 http_atotm
+   871: 080b38a0    40 OBJECT  GLOBAL DEFAULT   15 quoting_style_vals
+   872: 00000000     0 FUNC    GLOBAL DEFAULT  UND ferror_unlocked@@GLIBC_2.0
+   873: 080c6aa0    16 OBJECT  GLOBAL DEFAULT   25 dummy_iri
+   874: 0806ec3f    71 FUNC    GLOBAL DEFAULT   13 log_set_flush
+   875: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_certificate_get_peers@@GNUTLS_1_4
+   876: 08089b9b   341 FUNC    GLOBAL DEFAULT   13 md5_stream
+   877: 08085043   250 FUNC    GLOBAL DEFAULT   13 compile_posix_regex
+   878: 00000000     0 FUNC    GLOBAL DEFAULT  UND strrchr@@GLIBC_2.0
+   879: 0805a986    92 FUNC    GLOBAL DEFAULT   13 ftp_process_type
+   880: 00000000     0 FUNC    GLOBAL DEFAULT  UND tcgetattr@@GLIBC_2.0
+   881: 0807f615   190 FUNC    GLOBAL DEFAULT   13 unique_create
+   882: 0807a3a4   227 FUNC    GLOBAL DEFAULT   13 url_error
+   883: 08059209   264 FUNC    GLOBAL DEFAULT   13 ftp_pbsz
+   884: 00000000     0 FUNC    GLOBAL DEFAULT  UND fseeko64@@GLIBC_2.1
+   885: 00000000     0 FUNC    GLOBAL DEFAULT  UND htons@@GLIBC_2.0
+   886: 080c6a80     4 OBJECT  GLOBAL DEFAULT   25 yyleng
+   887: 00000000     0 FUNC    GLOBAL DEFAULT  UND chmod@@GLIBC_2.0
+   888: 00000000     0 FUNC    GLOBAL DEFAULT  UND mkostemp64@@GLIBC_2.7
+   889: 080905e7   310 FUNC    GLOBAL DEFAULT   13 mbiter_multi_next
+   890: 00000000     0 FUNC    GLOBAL DEFAULT  UND bindtextdomain@@GLIBC_2.0
+   891: 0804d106   163 FUNC    GLOBAL DEFAULT   13 convert_all_links
+   892: 0808070b   316 FUNC    GLOBAL DEFAULT   13 human_readable
+   893: 08080351   151 FUNC    GLOBAL DEFAULT   13 vec_append
+   894: 00000000     0 FUNC    GLOBAL DEFAULT  UND mbrtowc@@GLIBC_2.0
+   895: 0807fea6    39 FUNC    GLOBAL DEFAULT   13 has_wildcards_p
+   896: 080c6a78     4 OBJECT  GLOBAL DEFAULT   25 downloaded_html_set
+   897: 0804b7ff  1266 FUNC    GLOBAL DEFAULT   13 connect_to_ip
+   898: 0808cbb4   131 FUNC    GLOBAL DEFAULT   13 sha256_read_ctx
+   899: 08091aec    34 FUNC    GLOBAL DEFAULT   13 quotearg_style
+   900: 08069496  5616 FUNC    GLOBAL DEFAULT   13 http_loop
+   901: 00000000     0 FUNC    GLOBAL DEFAULT  UND read@@GLIBC_2.0
+   902: 00000000     0 FUNC    GLOBAL DEFAULT  UND timegm@@GLIBC_2.0
+   903: 00000000     0 FUNC    GLOBAL DEFAULT  UND strtoll@@GLIBC_2.0
+   904: 0807d1b5    89 FUNC    GLOBAL DEFAULT   13 warc_timestamp
+   905: 080585e0   703 FUNC    GLOBAL DEFAULT   13 ftp_login
+   906: 08057bd7    10 FUNC    GLOBAL DEFAULT   13 yyget_leng
+   907: 080c6a7c     4 OBJECT  GLOBAL DEFAULT   25 dl_url_file_map
+   908: 0807ff5c   618 FUNC    GLOBAL DEFAULT   13 wget_read_file
+   909: 00000000     0 FUNC    GLOBAL DEFAULT  UND perror@@GLIBC_2.0
+   910: 00000000     0 NOTYPE  WEAK   DEFAULT  UND _ITM_deregisterTMCloneTable
+   911: 080562eb  1010 FUNC    GLOBAL DEFAULT   13 ftp_loop
+   912: 00000000     0 FUNC    GLOBAL DEFAULT  UND gettext@@GLIBC_2.0
+   913: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_credentials_set@@GNUTLS_1_4
+   914: 00000000     0 FUNC    GLOBAL DEFAULT  UND ungetc@@GLIBC_2.0
+   915: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_init@@GNUTLS_1_4
+   916: 0807644e  1027 FUNC    GLOBAL DEFAULT   13 res_parse
+   917: 0807f90f    42 FUNC    GLOBAL DEFAULT   13 fnmatch_nocase
+   918: 0807a983   297 FUNC    GLOBAL DEFAULT   13 url_free
+   919: 08093e04     4 OBJECT  GLOBAL DEFAULT   15 _IO_stdin_used
+   920: 080808ab 16234 FUNC    GLOBAL DEFAULT   13 number_to_string
+   921: 08084b5f   148 FUNC    GLOBAL DEFAULT   13 xsleep
+   922: 08080483    72 FUNC    GLOBAL DEFAULT   13 string_set_free
+   923: 0808cc37   131 FUNC    GLOBAL DEFAULT   13 sha224_read_ctx
+   924: 00000000     0 FUNC    GLOBAL DEFAULT  UND strtol@@GLIBC_2.0
+   925: 00000000     0 FUNC    GLOBAL DEFAULT  UND fdopen@@GLIBC_2.1
+   926: 0805d4d1    96 FUNC    GLOBAL DEFAULT   13 hash_table_iter_next
+   927: 08091a4f    34 FUNC    GLOBAL DEFAULT   13 quotearg_mem
+   928: 0805d6a1    95 FUNC    GLOBAL DEFAULT   13 hash_pointer
+   929: 00000000     0 FUNC    GLOBAL DEFAULT  UND free@@GLIBC_2.0
+   930: 080794d5    27 FUNC    GLOBAL DEFAULT   13 url_unescape
+   931: 00000000     0 FUNC    GLOBAL DEFAULT  UND siglongjmp@@GLIBC_2.0
+   932: 080c1a20     4 OBJECT  GLOBAL DEFAULT   25 optind@@GLIBC_2.0
+   933: 00000000     0 FUNC    GLOBAL DEFAULT  UND __lxstat64@@GLIBC_2.2
+   934: 08085c83    27 FUNC    GLOBAL DEFAULT   13 get_exit_status
+   935: 0805cf41    50 FUNC    GLOBAL DEFAULT   13 hash_table_destroy
+   936: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_error_is_fatal@@GNUTLS_1_4
+   937: 0805d71a    26 FUNC    GLOBAL DEFAULT   13 address_list_get_bounds
+   938: 080899dd    76 FUNC    GLOBAL DEFAULT   13 md5_init_ctx
+   939: 0806f394    59 FUNC    GLOBAL DEFAULT   13 log_cleanup
+   940: 080c6ab0     4 OBJECT  GLOBAL DEFAULT   25 program_argstring
+   941: 00000000     0 FUNC    GLOBAL DEFAULT  UND getline@@GLIBC_2.0
+   942: 00000000     0 FUNC    GLOBAL DEFAULT  UND gzwrite
+   943: 0807f939   308 FUNC    GLOBAL DEFAULT   13 acceptable
+   944: 00000000     0 FUNC    GLOBAL DEFAULT  UND secure_getenv@@GLIBC_2.17
+   945: 08078d63   258 FUNC    GLOBAL DEFAULT   13 sleep_between_retrievals
+   946: 0807fecd   143 FUNC    GLOBAL DEFAULT   13 has_html_suffix_p
+   947: 0807baf4  1205 FUNC    GLOBAL DEFAULT   13 uri_merge
+   948: 0807de33   387 FUNC    GLOBAL DEFAULT   13 warc_init
+   949: 080c6a84     4 OBJECT  GLOBAL DEFAULT   25 yytext
+   950: 00000000     0 NOTYPE  WEAK   DEFAULT  UND _ITM_registerTMCloneTable
+   951: 0804f796   614 FUNC    GLOBAL DEFAULT   13 cookie_handle_set_cookie
+   952: 080be380     0 NOTYPE  GLOBAL DEFAULT   24 __data_start
+   953: 08092477   628 FUNC    GLOBAL DEFAULT   13 gnu_getpass
+   954: 080573b9   143 FUNC    GLOBAL DEFAULT   13 yyrestart
+   955: 0806c15e   152 FUNC    GLOBAL DEFAULT   13 wgetrc_env_file_name
+   956: 08085455   120 FUNC    GLOBAL DEFAULT   13 stable_sort
+   957: 08091e3b    34 FUNC    GLOBAL DEFAULT   13 quote_mem
+   958: 08093d40    48 FUNC    GLOBAL HIDDEN    13 stat64
+   959: 00000000     0 FUNC    GLOBAL DEFAULT  UND fflush@@GLIBC_2.0
+   960: 0805a10e   240 FUNC    GLOBAL DEFAULT   13 ftp_rest
+   961: 0809071d    37 FUNC    GLOBAL DEFAULT   13 mbiter_multi_reloc
+   962: 08057be1    10 FUNC    GLOBAL DEFAULT   13 yyget_text
+   963: 00000000     0 FUNC    GLOBAL DEFAULT  UND regcomp@@GLIBC_2.0
+   964: 00000000     0 FUNC    GLOBAL DEFAULT  UND opendir@@GLIBC_2.0
+   965: 080613ef   840 FUNC    GLOBAL DEFAULT   13 append_url
+   966: 0805a1fe   251 FUNC    GLOBAL DEFAULT   13 ftp_retr
+   967: 0808cb33   116 FUNC    GLOBAL DEFAULT   13 sha224_init_ctx
+   968: 00000000     0 FUNC    GLOBAL DEFAULT  UND getopt_long@@GLIBC_2.0
+   969: 00000000     0 FUNC    GLOBAL DEFAULT  UND accept@@GLIBC_2.0
+   970: 08057d59    19 FUNC    GLOBAL DEFAULT   13 yyfree
+   971: 00000000     0 FUNC    GLOBAL DEFAULT  UND symlink@@GLIBC_2.0
+   972: 00000000     0 FUNC    GLOBAL DEFAULT  UND ioctl@@GLIBC_2.0
+   973: 0804cbed   305 FUNC    GLOBAL DEFAULT   13 fd_write
+   974: 080854cd   279 FUNC    GLOBAL DEFAULT   13 print_decimal
+   975: 00000000     0 FUNC    GLOBAL DEFAULT  UND socket@@GLIBC_2.0
+   976: 00000000     0 FUNC    GLOBAL DEFAULT  UND __ctype_b_loc@@GLIBC_2.3
+   977: 00000000     0 FUNC    GLOBAL DEFAULT  UND fseek@@GLIBC_2.0
+   978: 00000000     0 FUNC    GLOBAL DEFAULT  UND getc_unlocked@@GLIBC_2.0
+   979: 0805d74d   314 FUNC    GLOBAL DEFAULT   13 address_list_contains
+   980: 08091be1    41 FUNC    GLOBAL DEFAULT   13 quotearg_char
+   981: 00000000     0 FUNC    GLOBAL DEFAULT  UND gzdopen
+   982: 080904be    62 FUNC    GLOBAL DEFAULT   13 base_len
+   983: 00000000     0 FUNC    GLOBAL DEFAULT  UND iswcntrl@@GLIBC_2.0
+   984: 0804fda6  1111 FUNC    GLOBAL DEFAULT   13 cookie_header
+   985: 080905b0    55 FUNC    GLOBAL DEFAULT   13 is_basic
+   986: 00000000     0 FUNC    GLOBAL DEFAULT  UND isatty@@GLIBC_2.0
+   987: 08059311   212 FUNC    GLOBAL DEFAULT   13 ftp_prot
+   988: 0807a673    71 FUNC    GLOBAL DEFAULT   13 url_full_path
+   989: 00000000     0 FUNC    GLOBAL DEFAULT  UND getaddrinfo@@GLIBC_2.0
+   990: 08057ae1   170 FUNC    GLOBAL DEFAULT   13 yy_scan_bytes
+   991: 00000000     0 FUNC    GLOBAL DEFAULT  UND fclose@@GLIBC_2.1
+   992: 080bf978     4 OBJECT  GLOBAL DEFAULT   24 version_string
+   993: 0804e526    54 FUNC    GLOBAL DEFAULT   13 register_html
+   994: 0805912b   222 FUNC    GLOBAL DEFAULT   13 ftp_auth
+   995: 00000000     0 FUNC    GLOBAL DEFAULT  UND ftello64@@GLIBC_2.1
+   996: 00000000     0 FUNC    GLOBAL DEFAULT  UND fread_unlocked@@GLIBC_2.1
+   997: 0807fad3   218 FUNC    GLOBAL DEFAULT   13 subdir_p
+   998: 080919e1    42 FUNC    GLOBAL DEFAULT   13 quotearg_n
+   999: 080921ca    34 FUNC    GLOBAL DEFAULT   13 x2realloc
+  1000: 08089f27  3274 FUNC    GLOBAL DEFAULT   13 md5_process_block
+  1001: 00000000     0 FUNC    GLOBAL DEFAULT  UND mbsinit@@GLIBC_2.0
+  1002: 00000000     0 FUNC    GLOBAL DEFAULT  UND dup@@GLIBC_2.0
+  1003: 0808af59   341 FUNC    GLOBAL DEFAULT   13 sha1_stream
+  1004: 00000000     0 FUNC    GLOBAL DEFAULT  UND ntohs@@GLIBC_2.0
+  1005: 080bf820   256 OBJECT  GLOBAL DEFAULT   24 char_prop
+  1006: 0805d5b4    48 FUNC    GLOBAL DEFAULT   13 make_string_hash_table
+  1007: 080576dd   120 FUNC    GLOBAL DEFAULT   13 yy_flush_buffer
+  1008: 080858ff   765 FUNC    GLOBAL DEFAULT   13 wg_pin_peer_pubkey
+  1009: 0805d2a4   335 FUNC    GLOBAL DEFAULT   13 hash_table_remove
+  1010: 00000000     0 FUNC    GLOBAL DEFAULT  UND readdir64@@GLIBC_2.2
+  1011: 08074ac0   116 FUNC    GLOBAL DEFAULT   13 ptimer_measure
+  1012: 0805d00e    52 FUNC    GLOBAL DEFAULT   13 hash_table_get
+  1013: 08080847   100 FUNC    GLOBAL DEFAULT   13 numdigit
+  1014: 08077d98    49 FUNC    GLOBAL DEFAULT   13 fd_read_line
+  1015: 0809082a    26 FUNC    GLOBAL DEFAULT   13 set_quoting_style
+  1016: 08084dec   599 FUNC    GLOBAL DEFAULT   13 base64_decode
+  1017: 08093da0    48 FUNC    GLOBAL HIDDEN    13 lstat64
+  1018: 080c1a24     4 OBJECT  GLOBAL DEFAULT   25 stderr@@GLIBC_2.0
+  1019: 00000000     0 FUNC    GLOBAL DEFAULT  UND nanosleep@@GLIBC_2.0
+  1020: 0806bc2e    53 FUNC    GLOBAL DEFAULT   13 http_cleanup
+  1021: 00000000     0 FUNC    GLOBAL DEFAULT  UND memcpy@@GLIBC_2.0
+  1022: 00000000     0 FUNC    GLOBAL DEFAULT  UND utime@@GLIBC_2.0
+  1023: 0807f5bf    86 FUNC    GLOBAL DEFAULT   13 unique_name
+  1024: 08057bf8    13 FUNC    GLOBAL DEFAULT   13 yyset_in
+  1025: 0804b370     4 FUNC    GLOBAL HIDDEN    13 __x86.get_pc_thunk.bx
+  1026: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_alert_get@@GNUTLS_1_4
+  1027: 00000000     0 FUNC    GLOBAL DEFAULT  UND strlen@@GLIBC_2.0
+  1028: 0808513d   252 FUNC    GLOBAL DEFAULT   13 match_posix_regex
+  1029: 08091db9    41 FUNC    GLOBAL DEFAULT   13 quotearg_custom
+  1030: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_deinit@@GNUTLS_1_4
+  1031: 0807eda8    87 FUNC    GLOBAL DEFAULT   13 strdupdelim
+  1032: 080579df   211 FUNC    GLOBAL DEFAULT   13 yy_scan_buffer
+  1033: 0808cfff   341 FUNC    GLOBAL DEFAULT   13 sha224_stream
+  1034: 0805d671    48 FUNC    GLOBAL DEFAULT   13 make_nocase_string_hash_table
+  1035: 00000000     0 FUNC    GLOBAL DEFAULT  UND unlink@@GLIBC_2.0
+  1036: 08084bf3   505 FUNC    GLOBAL DEFAULT   13 base64_encode
+  1037: 00000000     0 FUNC    GLOBAL DEFAULT  UND iconv@@GLIBC_2.1
+  1038: 08090463    91 FUNC    GLOBAL DEFAULT   13 last_component
+  1039: 080c1a14     0 OBJECT  GLOBAL HIDDEN    24 __TMC_END__
+  1040: 00000000     0 FUNC    GLOBAL DEFAULT  UND getpwuid@@GLIBC_2.0
+  1041: 08057755   203 FUNC    GLOBAL DEFAULT   13 yypush_buffer_state
+  1042: 0805d531    11 FUNC    GLOBAL DEFAULT   13 hash_table_count
+  1043: 080799c9    38 FUNC    GLOBAL DEFAULT   13 scheme_disable
+  1044: 0808d19e    74 FUNC    GLOBAL DEFAULT   13 sha224_buffer
+  1045: 0805f3b8   275 FUNC    GLOBAL DEFAULT   13 hsts_store_save
+  1046: 0807bfa9   848 FUNC    GLOBAL DEFAULT   13 url_string
+  1047: 08057bc3    10 FUNC    GLOBAL DEFAULT   13 yyget_in
+  1048: 00000000     0 FUNC    GLOBAL DEFAULT  UND feof_unlocked@@GLIBC_2.0
+  1049: 08091556   141 FUNC    GLOBAL DEFAULT   13 quotearg_buffer
+  1050: 080c6ac0   516 OBJECT  GLOBAL DEFAULT   25 opt
+  1051: 00000000     0 FUNC    GLOBAL DEFAULT  UND gai_strerror@@GLIBC_2.1
+  1052: 0806eefd   116 FUNC    GLOBAL DEFAULT   13 log_close
+  1053: 0806f4f8    43 FUNC    GLOBAL DEFAULT   13 log_request_redirect_output
+  1054: 080bf980     4 OBJECT  GLOBAL DEFAULT   24 link_string
+  1055: 08089a36   109 FUNC    GLOBAL DEFAULT   13 md5_read_ctx
+  1056: 080be384     0 OBJECT  GLOBAL HIDDEN    24 __dso_handle
+  1057: 00000000     0 FUNC    GLOBAL DEFAULT  UND setlocale@@GLIBC_2.0
+  1058: 0805e637   118 FUNC    GLOBAL DEFAULT   13 host_cleanup
+  1059: 080c6cc4     4 OBJECT  GLOBAL DEFAULT   25 hsts_store
+  1060: 080c1a10     4 OBJECT  GLOBAL DEFAULT   24 exit_failure
+  1061: 08092c03  2111 FUNC    GLOBAL DEFAULT   13 mktime_internal
+  1062: 00000000     0 FUNC    GLOBAL DEFAULT  UND clearerr@@GLIBC_2.0
+  1063: 0806bc06    40 FUNC    GLOBAL DEFAULT   13 save_cookies
+  1064: 00000000     0 FUNC    GLOBAL DEFAULT  UND fgetc@@GLIBC_2.0
+  1065: 080725aa    14 FUNC    GLOBAL DEFAULT   13 progress_interactive_p
+  1066: 0808b0f8   493 FUNC    GLOBAL DEFAULT   13 sha1_process_bytes
+  1067: 00000000     0 FUNC    GLOBAL DEFAULT  UND feof@@GLIBC_2.0
+  1068: 00000000     0 FUNC    GLOBAL DEFAULT  UND strcpy@@GLIBC_2.0
+  1069: 0807f854   187 FUNC    GLOBAL DEFAULT   13 file_merge
+  1070: 080898cf    27 FUNC    GLOBAL DEFAULT   13 c_tolower
+  1071: 0804c0a6   235 FUNC    GLOBAL DEFAULT   13 accept_connection
+  1072: 08093cc0    97 FUNC    GLOBAL DEFAULT   13 __libc_csu_init
+  1073: 0805d930    12 FUNC    GLOBAL DEFAULT   13 address_list_connected_p
+  1074: 0807260d    43 FUNC    GLOBAL DEFAULT   13 progress_finish
+  1075: 0805f0bd   427 FUNC    GLOBAL DEFAULT   13 hsts_store_entry
+  1076: 00000000     0 FUNC    GLOBAL DEFAULT  UND printf@@GLIBC_2.0
+  1077: 08090742   143 FUNC    GLOBAL DEFAULT   13 mbiter_multi_copy
+  1078: 0804cd1e   126 FUNC    GLOBAL DEFAULT   13 fd_errstr
+  1079: 0807f35e   185 FUNC    GLOBAL DEFAULT   13 remove_link
+  1080: 0807e174    98 FUNC    GLOBAL DEFAULT   13 warc_close
+  1081: 08057c83   143 FUNC    GLOBAL DEFAULT   13 yylex_destroy
+  1082: 080c6cc8     4 OBJECT  GLOBAL DEFAULT   25 ares
+  1083: 00000000     0 FUNC    GLOBAL DEFAULT  UND bind@@GLIBC_2.0
+  1084: 00000000     0 FUNC    GLOBAL DEFAULT  UND getuid@@GLIBC_2.0
+  1085: 0808996a   115 FUNC    GLOBAL DEFAULT   13 c_strncasecmp
+  1086: 080904fc    52 FUNC    GLOBAL DEFAULT   13 mb_width_aux
+  1087: 00000000     0 FUNC    GLOBAL DEFAULT  UND clock_getres@@GLIBC_2.17
+  1088: 08080266   235 FUNC    GLOBAL DEFAULT   13 merge_vecs
+  1089: 0804c38e   216 FUNC    GLOBAL DEFAULT   13 socket_family
+  1090: 0807e299   197 FUNC    GLOBAL DEFAULT   13 warc_write_request_record
+  1091: 08058f8a   417 FUNC    GLOBAL DEFAULT   13 ftp_eprt
+  1092: 00000000     0 FUNC    GLOBAL DEFAULT  UND atoi@@GLIBC_2.0
+  1093: 080774b7  1675 FUNC    GLOBAL DEFAULT   13 fd_read_body
+  1094: 0804ae60     0 FUNC    GLOBAL DEFAULT  UND strcasecmp@@GLIBC_2.0
+  1095: 0807888d  1180 FUNC    GLOBAL DEFAULT   13 retrieve_from_file
+  1096: 0808d1e8   493 FUNC    GLOBAL DEFAULT   13 sha256_process_bytes
+  1097: 0805d887   157 FUNC    GLOBAL DEFAULT   13 address_list_set_faulty
+  1098: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_x509_crt_init@@GNUTLS_1_4
+  1099: 0807d20e   381 FUNC    GLOBAL DEFAULT   13 warc_uuid_str
+  1100: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_record_get_direction@@GNUTLS_1_4
+  1101: 08079269    71 FUNC    GLOBAL DEFAULT   13 nonexisting_url
+  1102: 00000000     0 FUNC    GLOBAL DEFAULT  UND regerror@@GLIBC_2.0
+  1103: 0807f440    69 FUNC    GLOBAL DEFAULT   13 file_non_directory_p
+  1104: 0809228f    57 FUNC    GLOBAL DEFAULT   13 xalloc_die
+  1105: 08087ae2   357 FUNC    GLOBAL DEFAULT   13 ntlm_input
+  1106: 08078e65    95 FUNC    GLOBAL DEFAULT   13 free_urlpos
+  1107: 08057571   126 FUNC    GLOBAL DEFAULT   13 yy_create_buffer
+  1108: 00000000     0 FUNC    GLOBAL DEFAULT  UND select@@GLIBC_2.0
+  1109: 00000000     0 FUNC    GLOBAL DEFAULT  UND srandom@@GLIBC_2.0
+  1110: 080801c6    85 FUNC    GLOBAL DEFAULT   13 wget_read_file_free
+  1111: 0804c466    92 FUNC    GLOBAL DEFAULT   13 retryable_socket_connect_error
+  1112: 00000000     0 FUNC    GLOBAL DEFAULT  UND closedir@@GLIBC_2.0
+  1113: 0807924b    30 FUNC    GLOBAL DEFAULT   13 spider_cleanup
+  1114: 00000000     0 FUNC    GLOBAL DEFAULT  UND close@@GLIBC_2.0
+  1115: 08092059    46 FUNC    GLOBAL DEFAULT   13 xnmalloc
+  1116: 0806c2a6   585 FUNC    GLOBAL DEFAULT   13 run_wgetrc
+  1117: 00000000     0 FUNC    GLOBAL DEFAULT  UND fwrite@@GLIBC_2.0
+  1118: 08077011   106 FUNC    GLOBAL DEFAULT   13 res_cleanup
+  1119: 08089763    28 FUNC    GLOBAL DEFAULT   13 c_isascii
+  1120: 080799b6    19 FUNC    GLOBAL DEFAULT   13 scheme_default_port
+  1121: 08091c25    34 FUNC    GLOBAL DEFAULT   13 quotearg_colon_mem
+  1122: 08058580    96 FUNC    GLOBAL DEFAULT   13 ftp_greeting
+  1123: 00000000     0 FUNC    GLOBAL DEFAULT  UND fprintf@@GLIBC_2.0
+  1124: 0805c671   344 FUNC    GLOBAL DEFAULT   13 ftp_parse_ls
+  1125: 00000000     0 FUNC    GLOBAL DEFAULT  UND strstr@@GLIBC_2.0
+  1126: 00000000     0 FUNC    GLOBAL DEFAULT  UND time@@GLIBC_2.0
+  1127: 00000000     0 FUNC    GLOBAL DEFAULT  UND nettle_des_set_key@@NETTLE_6
+  1128: 0806c1f6   128 FUNC    GLOBAL DEFAULT   13 wgetrc_user_file_name
+  1129: 08090844   128 FUNC    GLOBAL DEFAULT   13 set_char_quoting
+  1130: 00000000     0 FUNC    GLOBAL DEFAULT  UND strncat@@GLIBC_2.0
+  1131: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_x509_crt_check_hostname@@GNUTLS_1_4
+  1132: 0808977f    32 FUNC    GLOBAL DEFAULT   13 c_isblank
+  1133: 08050b32   134 FUNC    GLOBAL DEFAULT   13 cookie_jar_delete
+  1134: 0808ac54   370 FUNC    GLOBAL DEFAULT   13 sha1_read_ctx
+  1135: 080922f3   363 FUNC    GLOBAL DEFAULT   13 rpl_fcntl
+  1136: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_record_check_pending@@GNUTLS_1_4
+  1137: 00000000     0 FUNC    GLOBAL DEFAULT  UND ftruncate64@@GLIBC_2.1
+  1138: 00000000     0 FUNC    GLOBAL DEFAULT  UND nl_langinfo@@GLIBC_2.0
+  1139: 080c1a14     0 NOTYPE  GLOBAL DEFAULT   25 __bss_start
+  1140: 00000000     0 FUNC    GLOBAL DEFAULT  UND malloc@@GLIBC_2.0
+  1141: 080593e5   602 FUNC    GLOBAL DEFAULT   13 ftp_pasv
+  1142: 08057bb9    10 FUNC    GLOBAL DEFAULT   13 yyget_lineno
+  1143: 080856fe    91 FUNC    GLOBAL DEFAULT   13 wg_hex_to_string
+  1144: 0804e22e   436 FUNC    GLOBAL DEFAULT   13 register_download
+  1145: 080c1a30     4 OBJECT  GLOBAL DEFAULT   25 gnutls_free@@GNUTLS_1_4
+  1146: 08057c12    10 FUNC    GLOBAL DEFAULT   13 yyget_debug
+  1147: 080c6ce0     1 OBJECT  GLOBAL DEFAULT   25 output_stream_regular
+  1148: 080c1aa4     4 OBJECT  GLOBAL DEFAULT   25 yyin
+  1149: 08091c0a    27 FUNC    GLOBAL DEFAULT   13 quotearg_colon
+  1150: 080c6ce4     4 OBJECT  GLOBAL DEFAULT   25 output_stream
+  1151: 00000000     0 FUNC    GLOBAL DEFAULT  UND __stack_chk_fail@@GLIBC_2.4
+  1152: 08089815    28 FUNC    GLOBAL DEFAULT   13 c_isprint
+  1153: 0805d924    12 FUNC    GLOBAL DEFAULT   13 address_list_set_connected
+  1154: 08079171    67 FUNC    GLOBAL DEFAULT   13 url_uses_proxy
+  1155: 08079ae2   297 FUNC    GLOBAL DEFAULT   13 rewrite_shorthand_url
+  1156: 0805a2f9   376 FUNC    GLOBAL DEFAULT   13 ftp_list
+  1157: 080803e8    66 FUNC    GLOBAL DEFAULT   13 string_set_add
+  1158: 00000000     0 FUNC    GLOBAL DEFAULT  UND iconv_close@@GLIBC_2.1
+  1159: 0806c4ef   422 FUNC    GLOBAL DEFAULT   13 initialize
+  1160: 0805d4a9    40 FUNC    GLOBAL DEFAULT   13 hash_table_iterate
+  1161: 00000000     0 FUNC    GLOBAL DEFAULT  UND fputc@@GLIBC_2.0
+  1162: 0806edb5   107 FUNC    GLOBAL DEFAULT   13 debug_logprintf
+  1163: 080907d1    66 FUNC    GLOBAL DEFAULT   13 clone_quoting_options
+  1164: 00000000     0 FUNC    GLOBAL DEFAULT  UND memrchr@@GLIBC_2.2
+  1165: 080c6ce8     8 OBJECT  GLOBAL DEFAULT   25 total_download_time
+  1166: 08071b92    21 FUNC    GLOBAL DEFAULT   13 netrc_cleanup
+  1167: 080502a2  1368 FUNC    GLOBAL DEFAULT   13 cookie_jar_load
+  1168: 0805e54a   237 FUNC    GLOBAL DEFAULT   13 sufmatch
+  1169: 0808ceaa   341 FUNC    GLOBAL DEFAULT   13 sha256_stream
+  1170: 0804c9e1   261 FUNC    GLOBAL DEFAULT   13 fd_read
+  1171: 08057d12    32 FUNC    GLOBAL DEFAULT   13 yyalloc
+  1172: 0808021b    75 FUNC    GLOBAL DEFAULT   13 free_vec
+  1173: 00000000     0 FUNC    GLOBAL DEFAULT  UND pathconf@@GLIBC_2.0
+  1174: 00000000     0 FUNC    GLOBAL DEFAULT  UND error@@GLIBC_2.0
+  1175: 080723ce   135 FUNC    GLOBAL DEFAULT   13 valid_progress_implementation_p
+  1176: 00000000     0 FUNC    GLOBAL DEFAULT  UND strtok@@GLIBC_2.0
+  1177: 08091b37   170 FUNC    GLOBAL DEFAULT   13 quotearg_char_mem
+  1178: 08076c10   317 FUNC    GLOBAL DEFAULT   13 res_register_specs
+  1179: 080c1a34     4 OBJECT  GLOBAL DEFAULT   25 stdin@@GLIBC_2.0
+  1180: 0804c86a   122 FUNC    GLOBAL DEFAULT   13 fd_register_transport
+  1181: 080908ee    65 FUNC    GLOBAL DEFAULT   13 set_custom_quoting
+  1182: 0805d3f3    57 FUNC    GLOBAL DEFAULT   13 hash_table_clear
+  1183: 080908c4    42 FUNC    GLOBAL DEFAULT   13 set_quoting_flags
+  1184: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_certificate_set_x509_crl_file@@GNUTLS_1_4
+  1185: 0807987d   137 FUNC    GLOBAL DEFAULT   13 url_scheme
+  1186: 0807fe5b    75 FUNC    GLOBAL DEFAULT   13 suffix
+  1187: 08076851   136 FUNC    GLOBAL DEFAULT   13 res_parse_from_file
+  1188: 08057d32    39 FUNC    GLOBAL DEFAULT   13 yyrealloc
+  1189: 00000000     0 FUNC    GLOBAL DEFAULT  UND readlink@@GLIBC_2.0
+  1190: 00000000     0 FUNC    GLOBAL DEFAULT  UND strtok_r@@GLIBC_2.0
+  1191: 08088f2d    14 FUNC    GLOBAL DEFAULT   13 base32_decode_ctx_init
+  1192: 00000000     0 FUNC    GLOBAL DEFAULT  UND strncasecmp@@GLIBC_2.0
+  1193: 08091e12    41 FUNC    GLOBAL DEFAULT   13 quote_n_mem
+  1194: 0808979f    34 FUNC    GLOBAL DEFAULT   13 c_iscntrl
+  1195: 00000000     0 FUNC    GLOBAL DEFAULT  UND memmove@@GLIBC_2.0
+  1196: 08074ed6  2518 FUNC    GLOBAL DEFAULT   13 retrieve_tree
+  1197: 0807b4c0  1122 FUNC    GLOBAL DEFAULT   13 url_file_name
+  1198: 0808986b    35 FUNC    GLOBAL DEFAULT   13 c_isspace
+  1199: 0805d21a   138 FUNC    GLOBAL DEFAULT   13 hash_table_put
+  1200: 00000000     0 FUNC    GLOBAL DEFAULT  UND strndup@@GLIBC_2.0
+  1201: 08077f9c  2289 FUNC    GLOBAL DEFAULT   13 retrieve_url
+  1202: 08059f34   223 FUNC    GLOBAL DEFAULT   13 ftp_type
+  1203: 08058d3b   489 FUNC    GLOBAL DEFAULT   13 ftp_lprt
+  1204: 0806c276    48 FUNC    GLOBAL DEFAULT   13 wgetrc_file_name
+  1205: 080848b8    94 FUNC    GLOBAL DEFAULT   13 determine_screen_width
+  1206: 0807e1d6   195 FUNC    GLOBAL DEFAULT   13 warc_tempfile
+  1207: 080b3860    44 OBJECT  GLOBAL DEFAULT   15 quoting_style_args
+  1208: 08058238   347 FUNC    GLOBAL DEFAULT   13 ftp_response
+  1209: 0807edff   309 FUNC    GLOBAL DEFAULT   13 sepstring
+  1210: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_certificate_type_get@@GNUTLS_1_4
+  1211: 0807f485   117 FUNC    GLOBAL DEFAULT   13 file_size
+  1212: 0807ec0d   102 FUNC    GLOBAL DEFAULT   13 warc_write_resource_record
+  1213: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_session_is_resumed@@GNUTLS_1_4
+  1214: 08084815   111 FUNC    GLOBAL DEFAULT   13 number_to_static_string
+  1215: 08093970   370 FUNC    GLOBAL HIDDEN    13 __divdi3
+  1216: 0804cd9c   172 FUNC    GLOBAL DEFAULT   13 fd_close
+  1217: 00000000     0 FUNC    GLOBAL DEFAULT  UND vasprintf@@GLIBC_2.0
+  1218: 080c6cf0     0 NOTYPE  GLOBAL DEFAULT   25 _end
+  1219: 080c1a40     4 OBJECT  GLOBAL DEFAULT   25 stdout@@GLIBC_2.0
+  1220: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_pubkey_init@@GNUTLS_2_12
+  1221: 080938bb   179 FUNC    GLOBAL DEFAULT   13 locale_charset
+  1222: 0805e6ad    90 FUNC    GLOBAL DEFAULT   13 is_valid_ip_address
+  1223: 0806f364    48 FUNC    GLOBAL DEFAULT   13 escnonprint_uri
+  1224: 0804bcf1   322 FUNC    GLOBAL DEFAULT   13 connect_to_host
+  1225: 080c6ccc     4 OBJECT  GLOBAL DEFAULT   25 exec_name
+  1226: 00000000     0 FUNC    GLOBAL DEFAULT  UND nettle_md4_init@@NETTLE_6
+  1227: 08079210    59 FUNC    GLOBAL DEFAULT   13 input_file_url
+  1228: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_priority_set_direct@@GNUTLS_1_4
+  1229: 00000000     0 FUNC    GLOBAL DEFAULT  UND fork@@GLIBC_2.0
+  1230: 0807a945    62 FUNC    GLOBAL DEFAULT   13 url_set_file
+  1231: 00000000     0 FUNC    GLOBAL DEFAULT  UND __fxstat64@@GLIBC_2.2
+  1232: 00000000     0 FUNC    GLOBAL DEFAULT  UND textdomain@@GLIBC_2.0
+  1233: 08092151    42 FUNC    GLOBAL DEFAULT   13 xmalloc
+  1234: 08077b42   542 FUNC    GLOBAL DEFAULT   13 fd_read_hunk
+  1235: 0807ec73   102 FUNC    GLOBAL DEFAULT   13 warc_write_metadata_record
+  1236: 080bf940    56 OBJECT  GLOBAL DEFAULT   24 compiled_features
+  1237: 0809226a    37 FUNC    GLOBAL DEFAULT   13 xstrdup
+  1238: 0804e55c    54 FUNC    GLOBAL DEFAULT   13 register_css
+  1239: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_set_default_priority@@GNUTLS_1_4
+  1240: 08089cf0    74 FUNC    GLOBAL DEFAULT   13 md5_buffer
+  1241: 08091b0e    41 FUNC    GLOBAL DEFAULT   13 quotearg_style_mem
+  1242: 080624b0   722 FUNC    GLOBAL DEFAULT   13 get_urls_file
+  1243: 00000000     0 FUNC    GLOBAL DEFAULT  UND setsockopt@@GLIBC_2.0
+  1244: 00000000     0 FUNC    GLOBAL DEFAULT  UND mbtowc@@GLIBC_2.0
+  1245: 00000000     0 FUNC    GLOBAL DEFAULT  UND tcsetattr@@GLIBC_2.0
+  1246: 080898aa    37 FUNC    GLOBAL DEFAULT   13 c_isxdigit
+  1247: 080922c8    43 FUNC    GLOBAL DEFAULT   13 xstrndup
+  1248: 08089aa3   248 FUNC    GLOBAL DEFAULT   13 md5_finish_ctx
+  1249: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_session_get_data2@@GNUTLS_1_4
+  1250: 0804e664   194 FUNC    GLOBAL DEFAULT   13 downloaded_file
+  1251: 0807aaac   299 FUNC    GLOBAL DEFAULT   13 mkalldirs
+  1252: 0808042a    32 FUNC    GLOBAL DEFAULT   13 string_set_contains
+  1253: 00000000     0 FUNC    GLOBAL DEFAULT  UND fcntl@@GLIBC_2.0
+  1254: 00000000     0 FUNC    GLOBAL DEFAULT  UND flock@@GLIBC_2.0
+  1255: 08091ce8    48 FUNC    GLOBAL DEFAULT   13 quotearg_n_custom
+  1256: 0805f4fa   116 FUNC    GLOBAL DEFAULT   13 hsts_store_close
+  1257: 08057c05    13 FUNC    GLOBAL DEFAULT   13 yyset_out
+  1258: 0807c2f9    56 FUNC    GLOBAL DEFAULT   13 schemes_are_similar_p
+  1259: 00000000     0 FUNC    GLOBAL DEFAULT  UND strspn@@GLIBC_2.0
+  1260: 00000000     0 FUNC    GLOBAL DEFAULT  UND sscanf@@GLIBC_2.0
+  1261: 0805ce3b   262 FUNC    GLOBAL DEFAULT   13 hash_table_new
+  1262: 00000000     0 FUNC    GLOBAL DEFAULT  UND gmtime@@GLIBC_2.0
+  1263: 00000000     0 FUNC    GLOBAL DEFAULT  UND fscanf@@GLIBC_2.0
+  1264: 080be3bc     4 OBJECT  GLOBAL DEFAULT   24 yylineno
+  1265: 080c1a44     4 OBJECT  GLOBAL DEFAULT   25 opterr@@GLIBC_2.0
+  1266: 0804e785   497 FUNC    GLOBAL DEFAULT   13 html_quote_string
+  1267: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_server_name_set@@GNUTLS_1_4
+  1268: 0807fa6d   102 FUNC    GLOBAL DEFAULT   13 accept_url
+  1269: 00000000     0 FUNC    GLOBAL DEFAULT  UND memchr@@GLIBC_2.0
+  1270: 0804b1c0     0 FUNC    GLOBAL DEFAULT  UND fnmatch@@GLIBC_2.2.3
+  1271: 00000000     0 FUNC    GLOBAL DEFAULT  UND strncmp@@GLIBC_2.0
+  1272: 0808973d    38 FUNC    GLOBAL DEFAULT   13 c_isalpha
+  1273: 00000000     0 FUNC    GLOBAL DEFAULT  UND vfprintf@@GLIBC_2.0
+  1274: 0806e8ac   276 FUNC    GLOBAL DEFAULT   13 logputs
+  1275: 080c1aac     4 OBJECT  GLOBAL DEFAULT   25 yy_flex_debug
+  1276: 0805e4e4   102 FUNC    GLOBAL DEFAULT   13 accept_domain
+  1277: 00000000     0 FUNC    GLOBAL DEFAULT  UND _IO_putc@@GLIBC_2.0
+  1278: 00000000     0 FUNC    GLOBAL DEFAULT  UND munmap@@GLIBC_2.0
+  1279: 0804c191   509 FUNC    GLOBAL DEFAULT   13 socket_ip_address
+  1280: 080920bc   130 FUNC    GLOBAL DEFAULT   13 x2nrealloc
+  1281: 0806c0c3   155 FUNC    GLOBAL DEFAULT   13 home_dir
+  1282: 00000000     0 FUNC    GLOBAL DEFAULT  UND strpbrk@@GLIBC_2.0
+  1283: 0807465d    38 FUNC    GLOBAL DEFAULT   13 progress_handle_sigwinch
+  1284: 08091aaf    61 FUNC    GLOBAL DEFAULT   13 quotearg_n_style_mem
+  1285: 0806e89f    13 FUNC    GLOBAL DEFAULT   13 log_set_warc_log_fp
+  1286: 080791e2    46 FUNC    GLOBAL DEFAULT   13 set_local_file
+  1287: 080c1a48     4 OBJECT  GLOBAL DEFAULT   25 optarg@@GLIBC_2.0
+  1288: 080898ea    27 FUNC    GLOBAL DEFAULT   13 c_toupper
+  1289: 0808811c  2595 FUNC    GLOBAL DEFAULT   13 ntlm_output
+  1290: 080903f4   111 FUNC    GLOBAL DEFAULT   13 base_name
+  1291: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_pubkey_export@@GNUTLS_2_12
+  1292: 080567cf  1362 FUNC    GLOBAL DEFAULT   13 yylex
+  1293: 08091c47   161 FUNC    GLOBAL DEFAULT   13 quotearg_n_style_colon
+  1294: 08089d3a   493 FUNC    GLOBAL DEFAULT   13 md5_process_bytes
+  1295: 00000000     0 FUNC    GLOBAL DEFAULT  UND fread@@GLIBC_2.0
+  1296: 0808d3d5 12319 FUNC    GLOBAL DEFAULT   13 sha256_process_block
+  1297: 00000000     0 FUNC    GLOBAL DEFAULT  UND fflush_unlocked@@GLIBC_2.0
+  1298: 0808044a    57 FUNC    GLOBAL DEFAULT   13 string_set_to_array
+  1299: 0807e70f   984 FUNC    GLOBAL DEFAULT   13 warc_write_response_record
+  1300: 0807f73e   278 FUNC    GLOBAL DEFAULT   13 make_directory
+  1301: 0805a6e0   310 FUNC    GLOBAL DEFAULT   13 ftp_pwd
+  1302: 08092216    43 FUNC    GLOBAL DEFAULT   13 xcalloc
+  1303: 08057ec8   646 FUNC    GLOBAL DEFAULT   13 get_urls_css
+  1304: 00000000     0 FUNC    GLOBAL DEFAULT  UND strftime@@GLIBC_2.0
+  1305: 08091e7f    27 FUNC    GLOBAL DEFAULT   13 quote
+  1306: 0807251a    15 FUNC    GLOBAL DEFAULT   13 progress_schedule_redirect
+  1307: 08059cc5   623 FUNC    GLOBAL DEFAULT   13 ftp_epsv
+  1308: 0805dd6a   433 FUNC    GLOBAL DEFAULT   13 is_valid_ipv6_address
+  1309: 08074a3c    71 FUNC    GLOBAL DEFAULT   13 ptimer_new
+  1310: 080c1a14     0 NOTYPE  GLOBAL DEFAULT   24 _edata
+  1311: 00000000     0 FUNC    GLOBAL DEFAULT  UND snprintf@@GLIBC_2.0
+  1312: 00000000     0 FUNC    GLOBAL DEFAULT  UND mmap64@@GLIBC_2.1
+  1313: 080507fa   824 FUNC    GLOBAL DEFAULT   13 cookie_jar_save
+  1314: 00000000     0 FUNC    GLOBAL DEFAULT  UND wcwidth@@GLIBC_2.0
+  1315: 00000000     0 FUNC    GLOBAL DEFAULT  UND strcspn@@GLIBC_2.0
+  1316: 0804e481   165 FUNC    GLOBAL DEFAULT   13 register_delete_file
+  1317: 00000000     0 FUNC    GLOBAL DEFAULT  UND strdup@@GLIBC_2.0
+  1318: 00000000     0 FUNC    GLOBAL DEFAULT  UND getpeername@@GLIBC_2.0
+  1319: 00000000     0 FUNC    GLOBAL DEFAULT  UND iswprint@@GLIBC_2.0
+  1320: 0809217b    79 FUNC    GLOBAL DEFAULT   13 xrealloc
+  1321: 08072529   129 FUNC    GLOBAL DEFAULT   13 progress_create
+  1322: 080855e4   282 FUNC    GLOBAL DEFAULT   13 get_max_length
+  1323: 0807ed61    71 FUNC    GLOBAL DEFAULT   13 xstrdup_lower
+  1324: 00000000     0 FUNC    GLOBAL DEFAULT  UND ferror@@GLIBC_2.0
+  1325: 080921ec    42 FUNC    GLOBAL DEFAULT   13 xzalloc
+  1326: 0807f2fc    98 FUNC    GLOBAL DEFAULT   13 touch
+  1327: 0806cab0   156 FUNC    GLOBAL DEFAULT   13 setoptval
+  1328: 0804b2e0     0 FUNC    GLOBAL DEFAULT  UND strcmp@@GLIBC_2.0
+  1329: 08074a9d    35 FUNC    GLOBAL DEFAULT   13 ptimer_reset
+  1330: 00000000     0 FUNC    GLOBAL DEFAULT  UND __sigsetjmp@@GLIBC_2.0
+  1331: 0807f10f    40 FUNC    GLOBAL DEFAULT   13 time_str
+  1332: 080897f9    28 FUNC    GLOBAL DEFAULT   13 c_islower
+  1333: 08092241    41 FUNC    GLOBAL DEFAULT   13 xmemdup
+  1334: 08057ab2    47 FUNC    GLOBAL DEFAULT   13 yy_scan_string
+  1335: 08072357   119 FUNC    GLOBAL DEFAULT   13 free_netrc
+  1336: 00000000     0 FUNC    GLOBAL DEFAULT  UND exit@@GLIBC_2.0
+  1337: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_pubkey_deinit@@GNUTLS_2_12
+  1338: 08091d18   161 FUNC    GLOBAL DEFAULT   13 quotearg_n_custom_mem
+  1339: 08057448   192 FUNC    GLOBAL DEFAULT   13 yy_switch_to_buffer
+  1340: 00000000     0 FUNC    GLOBAL DEFAULT  UND gnutls_strerror@@GNUTLS_1_4
+  1341: 080c6cd0     4 OBJECT  GLOBAL DEFAULT   25 program_name
+  1342: 08088e81   131 FUNC    GLOBAL DEFAULT   13 base32_encode_alloc
+  1343: 08089905   101 FUNC    GLOBAL DEFAULT   13 c_strcasecmp
+  1344: 0809160c   271 FUNC    GLOBAL DEFAULT   13 quotearg_alloc_mem
+  1345: 08086127   422 FUNC    GLOBAL DEFAULT   13 skey_response
+  1346: 00000000     0 FUNC    GLOBAL DEFAULT  UND freopen64@@GLIBC_2.1
+  1347: 0807fc4f   110 FUNC    GLOBAL DEFAULT   13 accdir
+  1348: 080926eb    53 FUNC    GLOBAL DEFAULT   13 rpl_ioctl
+  1349: 08090813    23 FUNC    GLOBAL DEFAULT   13 get_quoting_style
+  1350: 0804e592   147 FUNC    GLOBAL DEFAULT   13 convert_cleanup
+  1351: 08070151  6721 FUNC    GLOBAL DEFAULT   13 main
+  1352: 0804a560     0 FUNC    GLOBAL DEFAULT   11 _init
+  1353: 08078ec4   379 FUNC    GLOBAL DEFAULT   13 rotate_backups
+  1354: 080792b0   214 FUNC    GLOBAL DEFAULT   13 print_broken_links
+  1355: 08079999    29 FUNC    GLOBAL DEFAULT   13 url_valid_scheme
+  1356: 0805ef61   348 FUNC    GLOBAL DEFAULT   13 hsts_match
+  1357: 0805db05   136 FUNC    GLOBAL DEFAULT   13 address_list_release
+  1358: 08084916    76 FUNC    GLOBAL DEFAULT   13 random_number

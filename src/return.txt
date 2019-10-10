@@ -1,0 +1,76 @@
+Enter the location of the files: 
+gnutls.c
+http-ntlm.c
+retr.c
+test.c
+iri.c
+hash.c
+host.c
+377:    return _("Unknown host");
+
+381:    return _("Temporary failure in name resolution");
+
+383:    return _("Unknown error");
+
+main.c
+224:static void _Noreturn print_help (void);
+
+225:static void _Noreturn print_version (void);
+
+utils.c
+log.c
+recur.c
+url.c
+434:    return (char *) s;          /* C const model sucks. */
+
+475:          return (enum url_scheme) i;
+
+1143:    return (char *)dir;
+
+init.c
+netrc.c
+http.c
+ptimer.c
+ftp-basic.c
+convert.c
+253:  downloaded_file_return = downloaded_file (CHECK_FOR_FILE, file);
+
+254:  if (opt.backup_converted && downloaded_file_return)
+
+255:    write_backup_file (file, downloaded_file_return);
+
+532:write_backup_file (const char *file, downloaded_file_t downloaded_file_return)
+
+545:  if (downloaded_file_return == FILE_DOWNLOADED_AND_HTML_EXTENSION_ADDED)
+
+css.c
+4855:#define yyterminate() return YY_NULL
+
+openssl.c
+warc.c
+build_info.c
+html-url.c
+mswindows.c
+618:  return (const char *) dst;
+
+version.c
+cookies.c
+connect.c
+spider.c
+css_.c
+4856:#define yyterminate() return YY_NULL
+
+progress.c
+ftp-ls.c
+html-parse.c
+hsts.c
+615:      return test_url_rewrite (s, u, p, true); \
+
+620:      return test_url_rewrite (s, u, p, false); \
+
+ftp.c
+css-url.c
+res.c
+ftp-opie.c
+exits.c
+metalink.c
